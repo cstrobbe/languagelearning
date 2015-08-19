@@ -6,3 +6,42 @@ body {
 .booktitle {
   font-style: italic;
 }
+
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 6px 0;
+}
+
+nav li {
+  display: inline; 
+  margin-left: 0;
+  background-color: transparent; 
+  color: inherit;
+}
+
+nav li:before {
+  content: " / ";
+  /*background-color: #99027A; color: #FFF;*/
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+nav li:first-child:before {
+  content: "";
+}
+
+nav a:link { 
+  text-decoration: none;
+  /*background-color: transparent; color: #FFF; */
+  font-size: 1.2em;
+}
+nav li.active a { border-bottom: 2px solid #FFF; }
+nav a:visited {
+  /*background-color: transparent; color: #FFF; */
+}
+nav a:hover, a:focus { 
+  /*background-color: #99027A; color: #FEC341; */
+  text-decoration: none;
+  border-bottom: 2px solid #FEC341;
+}
