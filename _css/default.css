@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+  max-width: 60em;
 }
 
 .booktitle {
@@ -46,6 +47,10 @@ nav a:hover, a:focus {
   border-bottom: 2px solid #FEC341;
 }
 
+footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+}
 
 rp, rt {
   display: none;
