@@ -1,10 +1,10 @@
 
 body {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+  background-color: transparent; color: #282828;
 }
 
 header, nav, main, footer {
-  /*max-width: 60em;*/
   clear: both;
   display: block;
   margin-left: 20px;
@@ -16,6 +16,8 @@ header, main, footer {
 }
 
 header {
+  background-color: #09316D;
+  color: #89A0C2;
   padding-top: 8px; padding-bottom: 4px;
 }
 
@@ -23,15 +25,22 @@ nav {
   position: fixed;
   width: 11em; height: auto;
   padding: none;
+  padding-bottom: 10px;
   top: .5em; right: 20px; bottom: auto; left: auto;
+  background-color: #EEC62A;
+  color: inherit;
 }
 
 nav h2 {
+  background-color: transparent;
+  color: #7C3100;
   margin-top: 6px; margin-bottom: 0;
 }
 
-.booktitle {
-  font-style: italic;
+nav a { 
+  display: block;
+  height: 1.4em;
+  margin-bottom: 10px;
 }
 
 nav > ul {
@@ -40,11 +49,17 @@ nav > ul {
   margin-top: 0;
   margin-bottom: 0;
   padding: 6px 0;
+  color: #41409A;
+  background-color: transparent;
 }
 
 nav > ul > li {
   margin-bottom: 6px;
+  margin-right: 20px;
+  margin-left: -20px;
   font-size: 1.05em;
+  color: inherit;
+  background-color: transparent; 
 }
 
 nav > ul > li > ul {
@@ -52,19 +67,21 @@ nav > ul > li > ul {
   font-size: 0.94em;
   margin-left: 0;
   padding-left: 20px;
+  color: inherit;
+  background-color: transparent;
 }
 nav > ul > li > ul > li {
   margin-top: 2px;
 }
 
-nav a { display: block; }
-
-/*nav > ul > li.active a, nav > ul > li > ul > li.active a { 
+nav > ul > li.active a, nav > ul > li > ul > li.active a { 
+  cursor: default;
   border-left: 10px solid #A58400;
-}*/
+}
 
 nav > ul > li.active > ul > li > a { 
   border-left: none;
+  cursor: pointer;
 }
 
 nav a:link,
@@ -73,8 +90,9 @@ nav a:hover, nav a:focus,
 nav a:active {
   font-size: 1em;
   text-decoration: none;
-  /*background-color: transparent; color: #7C6300; */
   padding-left: 2px;
+  background-color: transparent;
+  color: #7C6300;
 }
 
 nav a:link,
@@ -83,26 +101,26 @@ nav a:visited {
   border-right: 10px solid transparent;
   border-bottom: 1px solid transparent;
   border-left: 10px solid transparent;
-  /*color: #321900;
-  background-color: #FDDB58;*/
+  background-color: #FDDB58;
+  color: #321900;
 }
 
-/*nav a:hover, nav a:focus,
+nav a:hover, nav a:focus,
 nav a:active {
   border-top: 1px solid #7C6300;
   border-right: 10px solid #7C6300;
   border-bottom: 1px solid #7C6300;
   border-left: 10px solid #7C6300;
-}*/
+}
 
-/*a:link {
+a:link, a:visited {
   background-color: transparent;
   color: #052452;
-}*/
+}
 
 a:hover, a:focus, a:active {
-  /*background-color: #09316D;
-  color: #FFF;*/
+  background-color: #09316D;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -114,19 +132,23 @@ footer {
   margin-top: 60px;
   padding-left: 4px;
   border-width: 4px 0px;
-  /*border-color: #A54100;*/
+  border-color: #A54100;
   border-style: solid;
-  /*color: #7C3100;
-  background-color: #FFF;*/
+  color: #7C3100;
+  background-color: #FFF;
 }
 footer p {
   font-size: 0.94em;
 }
 
 footer a:link, footer a:visited {
+  background-color: #FFF;
+  color: #7C3100;
 }
 
 footer a:hover, footer a:focus, footer a:active {
+  background-color: #A54100;
+  color: #FFF;
 }
 
 
@@ -139,14 +161,20 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  /*color: #7C3100; ;
-  background-color: transparent;*/
+  color: #7C3100;
+  background-color: transparent;
 }
 
 main ul li {
-  list-style-type: square;
+  /*list-style-type: square;*/
+  list-style-image: url('../img/orangebrown_listsquare.png');
 }
 
 rp, rt {
   display: none;
 }
+
+.booktitle {
+  font-style: italic;
+}
+

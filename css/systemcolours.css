@@ -1,0 +1,209 @@
+
+body {
+  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+  background-color: Window; color: WindowText;
+}
+
+header, nav, main, footer {
+  clear: both;
+  display: block;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+header, main, footer {
+  margin-right: 14em;
+}
+
+header {
+  background-color: transparent;
+  color: inherit;
+  padding-top: 8px; padding-bottom: 4px;
+  border: 1px solid ActiveBorder;
+}
+
+nav {
+  position: fixed;
+  width: 11em; height: auto;
+  padding: none;
+  padding-bottom: 10px;
+  top: .5em; right: 20px; bottom: auto; left: auto;
+  background-color: ScrollBar;
+  color: MenuText;
+}
+
+nav h2 {
+  background-color: transparent;
+  color: MenuText;
+  margin-top: 6px; margin-bottom: 0;
+}
+
+nav a { 
+  display: block;
+  height: 1.4em;
+  margin-bottom: 10px;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 6px 0;
+  color: inherit;
+  background-color: transparent;
+}
+
+nav > ul > li {
+  margin-bottom: 6px;
+  margin-right: 20px;
+  margin-left: -20px;
+  font-size: 1.05em;
+  color: inherit;
+  background-color: transparent; 
+}
+
+nav > ul > li > ul {
+  list-style-type: none;
+  font-size: 0.94em;
+  margin-left: 0;
+  padding-left: 20px;
+  color: inherit;
+  background-color: transparent;
+}
+nav > ul > li > ul > li {
+  margin-top: 2px;
+}
+
+nav > ul > li.active a, nav > ul > li > ul > li.active a { 
+  cursor: default;
+  border-left: 10px solid InactiveBorder;
+  background-color: InactiveBorder;
+  color: CaptionText;
+}
+
+nav > ul > li.active > ul > li > a { 
+  border-left: none;
+  cursor: pointer;
+}
+
+nav li.active a {
+  border-right: none;
+  border-left: none;
+  background-color: InactiveBorder;
+  color: CaptionText;
+}
+
+nav li.active a:hover, nav li.active a:focus {
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  background-color: InactiveBorder;
+  color: CaptionText;
+}
+
+nav > ul > li.active > ul > li a:link,
+nav > ul > li.active > ul > li a:visited {
+  border-top: none;
+  border-right: 10px solid InactiveBorder;
+  border-bottom: none;
+  border-left: 10px solid InactiveBorder;
+}
+
+nav > ul > li.active > ul > li a:hover,
+nav > ul > li.active > ul > li a:focus,
+nav > ul > li.active > ul > li a:active {
+  border-top: none;
+  border-right: 10px solid ActiveCaption;
+  border-bottom: none;
+  border-left: 10px solid ActiveCaption;
+}
+
+nav a:link,
+nav a:visited, 
+nav a:hover, nav a:focus,
+nav a:active {
+  font-size: 1em;
+  text-decoration: none;
+  padding-left: 2px;
+  background-color: Scrollbar; /*  background-color: ActiveCaption;*/
+  color: MenuText;
+}
+
+nav a:link,
+nav a:visited {
+  border-top: 1px solid Menu;
+  border-right: 10px solid Menu;
+  border-bottom: 1px solid Menu;
+  border-left: 10px solid Menu;
+  background-color: Menu;
+  color: MenuText;
+}
+
+nav a:hover, nav a:focus,
+nav a:active {
+  border-top: 1px solid Scrollbar;
+  border-right: 10px solid ActiveCaption;
+  border-bottom: 1px solid Scrollbar;
+  border-left: 10px solid ActiveCaption;
+}
+
+a:link, a:visited {
+  background-color: ButtonFace;
+  color: ButtonText;
+}
+
+a:hover, a:focus, a:active {
+  background-color: Highlight;
+  color: ButtonText;
+  text-decoration: none;
+}
+
+main a, footer a {
+  padding-right: 2px; padding-left: 2px;
+}
+
+footer {
+  margin-top: 60px;
+  padding-left: 4px;
+  border-width: 4px 0px;
+  border-color: ThreeDDarkShadow;
+  border-style: solid;
+  color: WindowText;
+  background-color: ThreeDFace;
+}
+footer p {
+  font-size: 0.94em;
+}
+
+footer a:link, footer a:visited {
+  background-color: Menu;
+  color: MenuText;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  background-color: Highlight;
+  color: ButtonText;
+}
+
+
+footer p a[rel=license]:first-child:hover, footer p a[rel=license]:first-child:focus {
+  background-color: transparent;
+}
+
+h1 {
+  letter-spacing: 0.15em;
+}
+
+main ul li {
+  list-style-type: square;
+}
+
+rp, rt {
+  display: none;
+}
+
+.booktitle {
+  font-style: italic;
+}
+
