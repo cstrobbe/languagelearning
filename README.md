@@ -11,7 +11,6 @@ Submitting issues requires a GitHub account.
 
 ## How to Clone
 How to clone this repository on the command line:
-
     `git clone https://github.com/cstrobbe/languagelearning.git`
 
 ## Licence 
