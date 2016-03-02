@@ -113,7 +113,9 @@ main ul li {
   padding: 0.25em 40px;
   line-height: 1.45;
   position: relative;
+  background-color: transparent;
   color: #222222;
+  border: 0;
 }
 #introquote:before {
   display: block;
@@ -123,6 +125,14 @@ main ul li {
   left: -20px;
   top: -20px;
   color: #7a7a7a;
+}
+
+blockquote {
+  background-color: #FDDB58;
+  color: #321900;
+  padding: 4px 12px;
+  border: 2px solid #FDDB58;
+  border-radius: 10px;
 }
 blockquote cite {
   color: #555;
