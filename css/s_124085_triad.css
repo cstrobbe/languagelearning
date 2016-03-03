@@ -8,11 +8,13 @@ body {
 header {
   background-color: #09316D;
   color: #89A0C2;
+  border-radius: 10px;
 }
 
 nav {
   background-color: #EEC62A;
   color: inherit;
+  border-radius: 10px;
 }
 
 nav h2 {
