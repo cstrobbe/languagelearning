@@ -13,6 +13,7 @@ header, main, footer {
 
 header {
   padding-top: 8px; padding-bottom: 4px;
+  margin-bottom: 24px;
 }
 
 nav {
@@ -80,6 +81,10 @@ nav a:active {
 
 main a, footer a {
   padding-right: 2px; padding-left: 2px;
+}
+
+main h2 {
+  margin-top: 30px;
 }
 
 footer {
