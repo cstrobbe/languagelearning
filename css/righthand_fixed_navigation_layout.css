@@ -114,6 +114,10 @@ rp, rt {
   font-style: italic;
 }
 
+.booktitle *[lang="zh-CN"] {
+  font-style: normal;
+}
+
 .hidden {
   display: none;
 }
