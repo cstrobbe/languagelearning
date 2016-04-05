@@ -16,3 +16,9 @@ How to clone this repository on the command line:
 ## Licence 
 Licence for the content: Creative Commons [CC BY-NC-SA 4.0](Licence_CC-BY-NC-SA-4.0.html),
 except where noted otherwise (e.g. images borrowed from elsewhere).
+
+## Contributing
+I do not really expect external contributions. 
+However, everyone who makes a pull request to contribute content should explicitly state 
+in the pull request's description that they make their contribution available under the CC BY-NC-SA 4.0 licence.
+
