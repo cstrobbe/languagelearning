@@ -155,6 +155,11 @@ blockquote cite:before {
   color: red;
   background-color: transparent;
 }
+.solutions del:before {
+  content: "*";
+  color: red;
+  background-color: transparent;
+}
 
 .solutions[lang=zh-CN], .solutions span[lang=zh-CN] { /*not: .solutions :lang(zh-CN)*/
   font-size: 1.2em;
