@@ -171,3 +171,6 @@ blockquote cite:before {
   font-size: 1.2em;
   font-family: Simsun, 'MS Song', Song, STSong;
 }
+p.solutions[lang=zh-CN]{
+  text-indent: 2em;
+}
