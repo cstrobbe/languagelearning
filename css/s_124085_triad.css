@@ -147,6 +147,15 @@ blockquote cite:before {
   content: "\2014 \2009";
 }
 
+table {
+  border-collapse: collapse;
+  margin-bottom: 12pt;
+}
+th, td {
+  border: 1px solid gray;
+  padding: 4px;
+}
+
 .solutions strong {
   color: green;
   background-color: transparent;
