@@ -1,6 +1,6 @@
 
 header, nav, main, footer {
-  /*max-width: 60em;*/
+  max-width: 45em; /* The 70em specified in WCAG-TECH C20 is much too wide: https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20160317/C20 */
   clear: both;
   display: block;
   margin-left: 20px;
