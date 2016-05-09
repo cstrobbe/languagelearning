@@ -8,19 +8,7 @@ body {
 header {
   background-color: #09316D;
   color: #89A0C2;
-  /*border-radius: 4px;*/
-  transform: rotate(-2deg); /* CSS 3 transforms: https://www.w3.org/TR/css-transforms-1/#typedef-transform-function */
-  /*
-  margin-top: -40px;
-  border-top: 20px solid #09316D;
-  margin-right: -16000px;
-  border-right: 16000px solid red;
-  margin-left: -100px;
-  border-left: 100px solid #09316D;*/
-}
-h1 {
-  margin-top: 36px;
-  transform: rotate(2deg);
+  border-radius: 4px;
 }
 
 nav {
