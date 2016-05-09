@@ -110,7 +110,7 @@ rp, rt {
   display: none;
 }
 
-.booktitle {
+.booktitle, .journal, .magazine, .newspaper, .website {
   font-style: italic;
 }
 
