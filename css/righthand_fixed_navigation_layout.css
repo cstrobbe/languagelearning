@@ -18,7 +18,7 @@ header {
 
 nav {
   position: fixed;
-  width: 15em; /* @@TODO check min-width and max-width */ 
+  width: 16em; /* @@TODO check min-width and max-width */ 
   height: auto;
   padding: none;
   top: .5em; right: 20px; bottom: auto; left: auto;
