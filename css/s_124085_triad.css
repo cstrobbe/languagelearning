@@ -192,6 +192,10 @@ th, td {
   font-size: 1.2em;
   font-family: Simsun, 'MS Song', Song, STSong;
 }
+.solutions[lang=zh-CN] span[lang=en], .solutions[lang=zh-CN] span[lang=en-GB] {
+  font-size: 0.8em;
+  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+}
 p.solutions[lang=zh-CN]{
   text-indent: 2em;
 }
