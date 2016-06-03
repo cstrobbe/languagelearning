@@ -32,6 +32,12 @@ nav {
   padding-bottom: 10px;
 }
 
+nav#sitemap {
+  position: relative;
+  width: auto;
+  margin-left: 40px;
+}
+
 nav h2 {
   margin-top: 6px; margin-bottom: 0;
 }
