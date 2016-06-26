@@ -167,6 +167,9 @@ th, td {
   border: 1px solid gray;
   padding: 4px;
 }
+tbody tr th {
+  text-align: left;
+}
 
 .solutions strong {
   color: green;
@@ -198,4 +201,12 @@ th, td {
 }
 p.solutions[lang=zh-CN]{
   text-indent: 2em;
+}
+td[lang=zh-CN] {
+  font-size: 1.4em;
+  font-family: Simsun, 'MS Song', Song, STSong;
+}
+td.pinyin[lang=zh-CN] {
+  font-size: 1em; 
+  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
 }

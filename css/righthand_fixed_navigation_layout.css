@@ -134,6 +134,15 @@ rp, rt {
 .hidden, .notyet {
   display: none;
 }
+/* @@ hide & show moved content does not work yet: */
+p.movedcontent, p.movedcontent a {
+  color: transparent;
+  background-color: transparent;
+}
+p.movedcontent:hover, p.movedcontent:hover a, p.movedcontent:focus, p.movedcontent:focus a {
+  color: #000;
+  background-color: inherit;
+}
 
 .homePageDecorativeImg {
   /*float: right;*/
