@@ -195,9 +195,11 @@ tbody tr th {
   font-size: 1.2em;
   font-family: Simsun, 'MS Song', Song, STSong;
 }
+.solutions[lang=zh-CN] span[lang=en], .solutions[lang=zh-CN] span[lang=en-GB], td.pinyin[lang=zh-CN], td[lang=zh-CN] span.pinyin {
+  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+}
 .solutions[lang=zh-CN] span[lang=en], .solutions[lang=zh-CN] span[lang=en-GB] {
   font-size: 0.8em;
-  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
 }
 p.solutions[lang=zh-CN]{
   text-indent: 2em;
@@ -208,5 +210,23 @@ td[lang=zh-CN] {
 }
 td.pinyin[lang=zh-CN] {
   font-size: 1em; 
-  font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
+}
+td[lang=zh-CN] span.pinyin {
+  font-size: 0.7em;
+}
+
+dt, dd {
+  border-bottom: 1px solid  #7C3100;
+  color: inherit;
+  line-height: 1.4em;
+  padding-left: 4px;
+}
+dt {
+  background-color: #FDDB58;
+  margin-top: 4px;
+  font-weight: bolder;
+}
+dd {
+  border-left: 1px solid #7C3100;
+  margin-top: 2px;
 }
