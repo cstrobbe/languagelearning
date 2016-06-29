@@ -127,7 +127,7 @@ rp, rt {
   font-style: italic;
 }
 
-.booktitle *[lang="zh-CN"] {
+.booktitle[lang="zh-CN"], .booktitle *[lang="zh-CN"] {
   font-style: normal;
 }
 
