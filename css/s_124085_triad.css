@@ -49,7 +49,8 @@ nav > ul > li > ul {
   background-color: transparent;
 }
 
-nav > ul > li.active a, nav > ul > li > ul > li.active a {
+nav > ul > li.active a, 
+nav > ul > li > ul > li.active a {
   border-left: 10px solid #A58400;
 }
 
