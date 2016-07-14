@@ -49,6 +49,17 @@
     "ff":  ["Fula",         "Fulfulde"],
     "ro":  ["Romanian",     "Română"],
     "om":  ["Oromo",        "Oromoo"],
+    "ig":  ["Igbo",         "Igbo"],
+    "az":  ["az",           "Azərbaycanca"],
+    "awa": ["Awadhi",       "अवधी"],
+    "gan": ["Gan",          "贛語"],
+    "ceb": ["Cebuano",      "Sugbuanon"],
+    "nl":  ["Dutch",        "Nederlands"],
+    "ku":  ["Kurdish",      "Kurdî / کوردی"],
+    "hbs": ["Serbo-Croatian", "Srpskohrvatski / српскохрватски"],
+    "mg":  ["Malagasy",     "Malagasy"],
+    "skr": ["Saraiki",      "سرائیکی"],
+    
 
 
     "zh-CN": ["Chinese (China)", "中文"],
