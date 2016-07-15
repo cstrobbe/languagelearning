@@ -1,14 +1,24 @@
 # ISO Language Tags
 
-ISO language tags (ISO 639-1, else ISO 639-3) for languages.
+ISO language tags (ISO 639-1, else ISO 639-3) for languages, with English name and endonym.
 the languages are ordered by number of speakers according to the list in the
 [Wikipedia article 'List of languages by number of native speakers'](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers).
 
 ## Notes
-Some languages miss translations because the native language string could not be copied from Wikipedia (typically due to rendering issues of the script in the browser):
+Some languages miss translations/endonyms because the script used by the language could not be copied from Wikipedia (typically due to rendering issues of the script in the browser):
 
-* `jv` (Javanese),
-* `my` (Burmese)
+* `jv` (Javanese: writing system cannot be rendered in browser),
+* `my` (Burmese: writing system cannot be rendered in browser),
+* `dhd``(Dhundari: writing system not mentioned on Wikipedia),
+* `kok` (Konkani: कोंकणी is a partial guess).
+
+For languages that have more than one ISO 639-3 tag, only one tag is given. For example:
+
+* [Hmong](https://en.wikipedia.org/wiki/Hmong_language): `hmv` (not listed: `mww`, `hnj`, `hmz`, etc.).
+
+To do:
+* Add remaining langauges with ISO 639-1 code from [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+* Then add languages with an ISO 639-3 code but no ISO 639-1 code from [List of ISO 639-3 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes).
 
 ## Contributing
 
