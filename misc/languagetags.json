@@ -104,7 +104,7 @@
     "zh-CN": ["Chinese (China)", "中文"],
     "zh-TW": ["Chinese (Taiwan)", "國語"],
     "xgng": ["Hong Kong Cantonese", "香港粵語"],
-    "es-MX": ["Mexican Spanish", "español mexicano"],
-    "es-CO": ["Colombian Spanish", "español colombiano"],
-    "es-ES": ["Spanish (Spain)", "español (España)"]
+    "es-MX": ["Mexican Spanish", "Español mexicano"],
+    "es-CO": ["Colombian Spanish", "Español colombiano"],
+    "es-ES": ["Spanish (Spain)", "Español (España)"]
 }
