@@ -5,6 +5,13 @@ the languages are ordered by number of speakers according to the list in the
 [Wikipedia article 'List of languages by number of native speakers'](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers).
 
 ## Notes
+
+Endonyms are based on entries in the English version of Wikipedia. 
+Where capitalisation is relevant, the endonym is capitalised.
+Where several endonyms are available or where the endonym is also used in Wikipedia's 
+[interlanguage links](https://en.wikipedia.org/wiki/Help:Interlanguage_links),
+the endonym used in the interlanguage links is given precedence.
+
 Some languages miss translations/endonyms because the script used by the language could not be copied from Wikipedia (typically due to rendering issues of the script in the browser):
 
 * `jv` (Javanese: writing system cannot be rendered in browser),
