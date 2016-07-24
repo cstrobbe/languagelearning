@@ -8,12 +8,12 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../css/default.css" title="No colours" />
   <style type="text/css">
   /*
-  */
     tr.strong { background-color: transparent; color: cornflowerblue; }
     tr.modal { background-color: transparent; color: red; }
     tr.weak { background-color: transparent; color: grey; }
-    tr.mixed { background-color: transparent; color: green; }
-    tr.irregular {}
+    tr.mixed, tr.irregular { background-color: transparent; color: green; }
+    // tr.irregular {}
+  */
   </style>
 </head>
 <body>
@@ -90,12 +90,28 @@
         </tr>
       </thead>
       <tbody>
+        <tr class="weak">
+          <th>ablehnen</th>
+          <td>lehnt ab</td>
+          <td>lehnte ab</td>
+          <td>lehnte ab</td>
+          <td>hat abgelehnt</td>
+          <td></td>
+        </tr>
         <tr class="strong">
           <th>annehmen</th>
           <td>nimmmt an</td>
           <td>nahm an</td>
           <td>nähme an</td>
           <td>hat angenommen</td>
+          <td></td>
+        </tr>
+        <tr class="weak">
+          <th>sich anstrengen</th>
+          <td>strengt sich an</td>
+          <td>strengte sich an</td>
+          <td>strengte sich an</td>
+          <td>hat sich angestrengt</td>
           <td></td>
         </tr>
         <tr class="weak">
@@ -123,12 +139,28 @@
           <td></td>
         </tr>
         <tr class="strong">
+          <th>ausweichen</th>
+          <td>weicht aus</td>
+          <td>wich aus</td>
+          <td>wiche aus</td>
+          <td>ist ausgewichen</td>
+          <td></td>
+        </tr>
+        <tr class="strong">
           <th>backen</th>
           <td>bäckt</td>
           <td>backte (/&nbsp;buk)</td>
           <td>backte (/&nbsp;büke)</td>
           <td>hat gebacken</td>
           <td>buk, büke: heute sehr selten</td>
+        </tr>
+        <tr class="weak">
+          <th>bedecken</th>
+          <td>bedeckt</td>
+          <td>bedeckte</td>
+          <td>bedeckte</td>
+          <td>hat bedeckt</td>
+          <td></td>
         </tr>
         <tr class="strong">
           <th>befehlen</th>
@@ -161,7 +193,7 @@
           <td>bärge</td>
           <td>hat geborgen</td>
           <td></td>
-        </tr><!-- @@verbergen -->
+        </tr>
         <tr class="strong">
           <th>bersten</th>
           <td>birst</td>
@@ -302,6 +334,14 @@
           <td>hat gedacht</td>
           <td></td>
         </tr>
+        <tr class="weak">
+          <th>downloaden</th>
+          <td>downloaden</td>
+          <td>downloadete</td>
+          <td>downloadete</td>
+          <td>hat downgeloadet</td>
+          <td></td>
+        </tr>
         <tr class="strong">
           <th>dreschen</th>
           <td>drischt</td>
@@ -417,6 +457,14 @@
           <td>fällte</td>
           <td>hat gefällt</td>
           <td>roden; ein Urteil fällen</td>
+        </tr>
+        <tr class="weak">
+          <th>falten</th>
+          <td>faltet</td>
+          <td>faltete</td>
+          <td>faltete</td>
+          <td>hat gefaltet</td>
+          <td></td>
         </tr>
         <tr class="strong">
           <th>fangen</th>
@@ -1022,12 +1070,28 @@
           <td>hat geredet</td>
           <td></td>
         </tr>
+        <tr class="weak">
+          <th>regnen</th>
+          <td>es regnet</td>
+          <td>es regnete</td>
+          <td>es regnete</td>
+          <td>es hat geregnet</td>
+          <td>nur 3. Person Singular</td>
+        </tr>
         <tr class="strong">
           <th>reiben</th>
           <td>reibt</td>
           <td>rieb</td>
           <td>riebe</td>
           <td>hat gerieben</td>
+          <td></td>
+        </tr>
+        <tr class="weak">
+          <th>reisen</th>
+          <td>reist</td>
+          <td>reiste</td>
+          <td>reiste</td>
+          <td>ist gereist</td>
           <td></td>
         </tr>
         <tr class="strong">
@@ -1054,6 +1118,14 @@
           <td>rannte</td>
           <td>rennte</td>
           <td>ist gerannt</td>
+          <td></td>
+        </tr>
+        <tr class="weak">
+          <th>reparieren</th>
+          <td>repariert</td>
+          <td>reparierte</td>
+          <td>reparierte</td>
+          <td>hat repariert</td>
           <td></td>
         </tr>
         <tr class="strong">
@@ -1102,6 +1174,14 @@
           <td>sog / saugte</td>
           <td>söge / saugte</td>
           <td>hat gesogen / hat gesaugt</td>
+          <td></td>
+        </tr>
+        <tr class="weak">
+          <th>sich schämen</th>
+          <td>schämt sich</td>
+          <td>schämte sich</td>
+          <td>schämte sich</td>
+          <td>hat sich geschämt</td>
           <td></td>
         </tr>
         <tr class="strong">
@@ -1674,6 +1754,14 @@
           <td>hat unterschieden</td>
           <td></td>
         </tr>
+        <tr class="strong">
+          <th>verbergen</th>
+          <td>verbirgt</td>
+          <td>verbarg</td>
+          <td>verbärge</td>
+          <td>hat verborgen</td>
+          <td></td>
+        </tr>
         <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
           <th>verbieten</th>
           <td>verbietet</td>
@@ -1818,6 +1906,14 @@
           <td>hat vertreten</td>
           <td></td>
         </tr>
+        <tr class="weak">
+          <th>sich verzählen</th>
+          <td>verzählt sich</td>
+          <td>verzählte sich</td>
+          <td>verzählte sich</td>
+          <td>hat sich verzählt</td>
+          <td></td>
+        </tr>
         <tr class="strong">
           <th>verzeihen</th>
           <td>verzeiht</td>
@@ -1874,7 +1970,6 @@
           <td>hat gewebt&nbsp;/ gewoben</td>
           <td></td>
         </tr>
-        <!-- @@add ausweichen -->
         <tr class="strong">
           <th>weichen</th>
           <td>weicht</td>
@@ -1955,6 +2050,14 @@
           <td>hat gewunden</td>
           <td></td>
         </tr>
+        <tr class="weak">
+          <th>winken</th>
+          <td>winkt</td>
+          <td>winkte</td>
+          <td>winkte</td>
+          <td>hat gewinkt</td>
+          <td></td>
+        </tr>
         <tr class="strong">
           <th>wissen</th>
           <td>weiß</td>
@@ -2012,7 +2115,7 @@
           <td></td>
         </tr>
         <!-- 
-        <tr>
+        <tr class="">
           <th></th>
           <td></td>
           <td></td>
