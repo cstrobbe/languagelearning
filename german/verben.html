@@ -6,6 +6,15 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../css/s_124085_triad.css" title="Three-colour scheme" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/systemcolours.css" title="System colours" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/default.css" title="No colours" />
+  <style type="text/css">
+  /*
+    tr.strong { background-color: transparent; color: cornflowerblue; }
+    tr.modal { background-color: transparent; color: red; }
+    tr.weak { background-color: transparent; color: grey; }
+    tr.mixed { background-color: transparent; color: green; }
+    tr.irregular {}
+  */
+  </style>
 </head>
 <body>
   <header lang="de">
@@ -66,8 +75,9 @@
 
   <main>
 
-    <h2>Verbtabelle / Stammformen</h2>
-    <p>Stammformen der starken Verben, der Modalverben und einiger anderen Verben.</p>
+    <h2>Verbtabelle</h2>
+    <p>Stammformen der starken Verben, der Modalverben, einiger unregelmäßigen und einiger anderen Verben.</p>
+
     <table>
       <thead>
         <tr>
@@ -80,15 +90,29 @@
         </tr>
       </thead>
       <tbody>
+        <!-- annehmen: strong, Collins 1 -->
+        <!-- arbeiten: weak, Collins 2 -->
+        <!-- atmen: weak: Collins 3 -->
+        <!-- ausreichen: weak: Collins 4 -->
+        <!-- 
         <tr>
-          <th>backen</th>
-          <td>bäckt</td>
-          <td>backte (buk)<!-- archaisch? --></td>
-          <td>backte</td>
-          <td>hat gebacken</td>
+          <th></th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td></td>
         </tr>
-        <tr>
+        -->
+        <tr class="strong">
+          <th>backen</th>
+          <td>bäckt</td>
+          <td>backte (/&nbsp;buk)</td>
+          <td>backte (/&nbsp;büke)</td>
+          <td>hat gebacken</td>
+          <td>buk, büke: heute sehr selten</td>
+        </tr>
+        <tr class="strong">
           <th>befehlen</th>
           <td>befiehlt</td>
           <td>befahl</td>
@@ -96,7 +120,7 @@
           <td>hat befohlen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>beginnen</th>
           <td>beginnt</td>
           <td>begann</td>
@@ -104,7 +128,7 @@
           <td>hat begonnen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>beißen</th>
           <td>beißt</td>
           <td>biss</td>
@@ -112,7 +136,10 @@
           <td>hat gebissen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- bergen: strong, Collins 9 -->
+        <!-- bersten: strong, Collins 10 -->
+        <!-- bestellen: weak, Collins 11 -->
+        <tr class="strong">
           <th>betrügen</th>
           <td>betrügt</td>
           <td>betrog</td>
@@ -120,15 +147,16 @@
           <td>hat betrogen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- bewegen: strong/weak, Collins 12 -->
+        <tr class="strong">
           <th>biegen</th>
           <td>biegt</td>
           <td>bog</td>
           <td>böge</td>
-          <td>hat gebogen</td>
-          <td></td>
+          <td>hat gebogen / ist geboben</td>
+          <td></td><!-- @@different meanings -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>bieten</th>
           <td>bietet</td>
           <td>bot</td>
@@ -136,7 +164,7 @@
           <td>hat geboten</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>binden</th>
           <td>bindet</td>
           <td>band</td>
@@ -144,7 +172,15 @@
           <td>hat gebunden</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="weak">
+          <th>beten</th>
+          <td>betet</td>
+          <td>betete</td>
+          <td>betete</td>
+          <td>hat gebetet</td>
+          <td>(schwach; stark im Niederländischen)</td>
+        </tr>
+        <tr class="strong">
           <th>bitten</th>
           <td>bittet</td>
           <td>bat</td>
@@ -152,7 +188,8 @@
           <td>hat gebeten</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- blasen: strong, Collins 17 -->
+        <tr class="strong">
           <th>bleiben</th>
           <td>bleibt</td>
           <td>blieb</td>
@@ -160,15 +197,43 @@
           <td>ist geblieben</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- braten: strong: Collins 19 -->
+        <tr class="strong">
           <th>brechen</th>
           <td>bricht</td>
           <td>brach</td>
           <td>bräche</td>
-          <td>hat gebrochen</td>
+          <td>hat gebrochen / ist gebrochen</td>
+          <td></td><!--@@ haben/sein: different meanings -->
+        </tr>
+        <tr class="mixed"><!-- mixed according to Collins -->
+          <th>brennen</th>
+          <td>brennt</td>
+          <td>brannte</td>
+          <td>brennte</td>
+          <td>hat gebrannt</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="mixed"><!-- mixed according to Collins -->
+          <th>bringen</th>
+          <td>bringt</td>
+          <td>brachte</td>
+          <td>brächte</td>
+          <td>hat gebracht</td>
+          <td></td>
+        </tr>
+        <tr class="mixed"><!-- mixed according to Collins -->
+          <th>denken</th>
+          <td>denkt</td>
+          <td>dachte</td>
+          <td>dächte</td>
+          <td>hat gedacht</td>
+          <td></td>
+        </tr>
+        <!-- dreschen: strong, Collins 24 -->
+        <!-- dringen: strong, Collins 25 -->
+        <!-- durchsetzen: weak, Collins 26 & 27 -->
+        <tr class="modal">
           <th>dürfen</th>
           <td>darf</td>
           <td>durfte</td>
@@ -176,7 +241,7 @@
           <td>hat dürfen / gedurft</td><!-- Modallverv / Vollverb -->
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>empfehlen</th>
           <td>empfiehlt</td>
           <td>empfahl</td>
@@ -184,7 +249,9 @@
           <td>hat empfohlen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- entdecken: weak, Collins 30 -->
+        <!-- erlösche: strong, Collins 31 -->
+        <tr class="strong">
           <th>erschrecken</th>
           <td>erschrickt</td>
           <td>erschrak</td>
@@ -192,7 +259,8 @@
           <td>ist erschrocken</td>
           <td>Stark: intransitiv. Schwach: transitiv.</td>
         </tr><!-- @@split into two rows -->
-        <tr>
+        <!-- erzählen: weak, Collins 33 -->
+        <tr class="strong">
           <th>essen</th>
           <td>isst</td>
           <td>aß</td>
@@ -200,15 +268,15 @@
           <td>hat gegessen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>fahren</th>
           <td>fährt</td>
           <td>fuhr</td>
           <td>führe</td>
-          <td>ist gefahren</td>
-          <td></td>
+          <td>ist gefahren (/&nbsp;hat gefahren)</td>
+          <td></td><!--@@ haben/sein: different meanings -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>fallen</th>
           <td>fällt</td>
           <td>fiel</td>
@@ -216,7 +284,7 @@
           <td>ist gefallen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>fangen</th>
           <td>fängt</td>
           <td>fing</td>
@@ -224,7 +292,8 @@
           <td>hat gefangen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- fechten: strong, Collins 38 -->
+        <tr class="strong">
           <th>finden</th>
           <td>findet</td>
           <td>fand</td>
@@ -232,31 +301,40 @@
           <td>hat gefunden</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- flechten: strong, Collins 40 -->
+        <tr class="strong">
           <th>fliegen</th>
           <td>fliegt</td>
           <td>flog</td>
           <td>flöge</td>
-          <td>ist geflogen</td>
-          <td></td>
+          <td>ist geflogen / hat geflogen</td>
+          <td></td><!-- @@haben/sein: transitiv/... -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>fliehen</th>
           <td>flieht</td>
           <td>floh</td>
           <td>flöhe</td>
-          <td>ist geflohen</td>
-          <td></td>
+          <td>ist geflohen / hat geflohen</td>
+          <td></td><!-- @@haben/sein: transitiv/... -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>fließen</th>
           <td>fließt</td>
           <td>floss</td>
           <td>flösse</td>
           <td>ist geflossen</td>
-          <td>nur 3. Person Singular</td>
+          <td>nur 3. Person Singular</td><!-- Collins also has other forms/persons -->
         </tr>
-        <tr>
+        <tr class="weak">
+          <th>fragen</th>
+          <td>fragt</td>
+          <td>fragte</td>
+          <td>fragte</td>
+          <td>hat gefragt</td>
+          <td>(schwach; stark im Niederländischen)</td>
+        </tr>
+        <tr class="strong">
           <th>fressen</th>
           <td>frisst</td>
           <td>fraß</td>
@@ -264,15 +342,18 @@
           <td>hat gefressen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- sich freuen: weak, Collins 45 -->
+        <tr class="strong">
           <th>frieren</th>
           <td>friert</td>
           <td>fror</td>
           <td>fröre</td>
-          <td>hat gefroren</td>
-          <td></td>
+          <td>hat gefroren / ist gefroren</td>
+          <td></td><!-- @@haben/sein: andere Bedeutung -->
         </tr>
-        <tr>
+        <!-- gären: strong, Collins 47 -->
+        <!-- gebären: strong, Collins 48 -->
+        <tr class="strong">
           <th>geben</th>
           <td>gibt</td>
           <td>gab</td>
@@ -280,7 +361,8 @@
           <td>hat gegeben</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- gedeihen: strong, Collins 50 -->
+        <tr class="strong">
           <th>gehen</th>
           <td>geht</td>
           <td>ging</td>
@@ -288,7 +370,8 @@
           <td>ist gegangen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- gehorchen: weak, Collins 52 -->
+        <tr class="strong">
           <th>gelingen</th>
           <td>gelingt</td>
           <td>gelang</td>
@@ -296,7 +379,7 @@
           <td>ist gelungen</td>
           <td>nur 3. Person Singular</td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>gelten</th>
           <td>gilt</td>
           <td>galt</td>
@@ -304,7 +387,8 @@
           <td>hat gegolten</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- genesen: strong, Collins 55 -->
+        <tr class="strong">
           <th>genießen</th>
           <td>genießt</td>
           <td>genoss</td>
@@ -312,7 +396,8 @@
           <td>hat genossen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- geraten: strong, Collins 57 -->
+        <tr class="strong">
           <th>geschehen</th>
           <td>geschieht</td>
           <td>geschah</td>
@@ -320,7 +405,7 @@
           <td>ist geschehen</td>
           <td>nur 3. Person Singular</td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>gewinnen</th>
           <td>gewinnte</td>
           <td>gewann</td>
@@ -328,7 +413,7 @@
           <td>hat gewonnen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>gießen</th>
           <td>gießt</td>
           <td>goss</td>
@@ -336,7 +421,7 @@
           <td>hat gegossen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>gleichen</th>
           <td>gleicht</td>
           <td>glich</td>
@@ -344,7 +429,7 @@
           <td>hat geglichen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>gleiten</th>
           <td>gleitet</td>
           <td>glitt</td>
@@ -352,7 +437,8 @@
           <td>ist geglitten</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- glimmen: strong, Collins 63 -->
+        <tr class="strong">
           <th>graben</th>
           <td>gräbt</td>
           <td>grub</td>
@@ -360,7 +446,7 @@
           <td>hat gegraben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>greifen</th>
           <td>greift</td>
           <td>griff</td>
@@ -368,7 +454,8 @@
           <td>hat gegriffen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- grüßen:strong, Collins 66 -->
+        <tr class="modal">
           <th>haben</th>
           <td>hat</td>
           <td>hatte</td>
@@ -376,7 +463,7 @@
           <td>hat gehabt</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>halten</th>
           <td>hält</td>
           <td>hielt</td>
@@ -384,7 +471,8 @@
           <td>hat gehalten</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- handeln: weak, Collins 69 -->
+        <tr class="strong">
           <th>hängen</th>
           <td>hängt</td>
           <td>hing</td>
@@ -392,7 +480,7 @@
           <td>hat gehangen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="weak">
           <th>hängen</th>
           <td>hängt</td>
           <td>hängte</td>
@@ -400,7 +488,7 @@
           <td>hat gehängt</td>
           <td>transitiv</td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>hauen</th>
           <td>haut</td>
           <td>haute / hieb</td>
@@ -408,7 +496,7 @@
           <td>hat gehauen</td>
           <td>Unregelmäßig: (Schriftsprache)</td><!-- @@ Schlagen mit einer Waffe / das Verwunden im Kampf (Duden: Gramatiktabellen Deutsch) -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>heben</th>
           <td>hebt</td>
           <td>hob</td>
@@ -416,7 +504,7 @@
           <td>hat gehoben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>heißen</th>
           <td>heißt</td>
           <td>hieß</td>
@@ -424,7 +512,8 @@
           <td>hat geheißen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- heizen: strong, Collins 74 -->
+        <tr class="strong">
           <th>helfen</th>
           <td>hilft</td>
           <td>half</td>
@@ -432,7 +521,19 @@
           <td>hat geholfen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- holen: weak, Collins 76 -->
+        <tr class="mixed"><!-- mixed according to Collins -->
+          <th>kennen</th>
+          <td>kennt</td>
+          <td>kannte</td>
+          <td>kennte</td>
+          <td>hat gekannt</td>
+          <td></td>
+        </tr>
+        <!-- klimmen: strong/weak, Collins 78 -->
+        <!-- klingen: strong, Collins 79 -->
+        <!-- kneifen: strong, Collins 80 -->
+        <tr class="strong">
           <th>kommen</th>
           <td>kommt</td>
           <td>kam</td>
@@ -440,7 +541,7 @@
           <td>ist gekommen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="modal">
           <th>können</th>
           <td>kann</td>
           <td>konnte</td>
@@ -448,7 +549,7 @@
           <td>hat können / gekonnt</td>
           <td></td><!-- @@Partizip II -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>kriechen</th>
           <td>kriecht</td>
           <td>kroch</td>
@@ -456,7 +557,15 @@
           <td>ist gekrochen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="weak">
+          <th>lachen</th>
+          <td>lacht</td>
+          <td>lachte</td>
+          <td>lachte</td>
+          <td>hat gelacht</td>
+          <td>(schwach; stark im Niederländischen)</td>
+        </tr>
+        <tr class="strong">
           <th>laden</th>
           <td>lädt</td>
           <td>lud</td>
@@ -464,7 +573,7 @@
           <td>hat geladen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>lassen</th>
           <td>lässt</td>
           <td>ließ</td>
@@ -472,7 +581,7 @@
           <td>hat gelassen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>laufen</th>
           <td>läuft</td>
           <td>lief</td>
@@ -480,7 +589,7 @@
           <td>ist gelaufen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>leiden</th>
           <td>leidet</td>
           <td>litt</td>
@@ -488,7 +597,7 @@
           <td>hat gelitten</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="irregular"><!-- irregular: Duden Grammatiktabellen S. 113 -->
           <th>leidtun</th>
           <td>tut leid</td>
           <td>tat leid</td>
@@ -496,7 +605,7 @@
           <td>hat leidgetan</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>leihen</th>
           <td>leiht</td>
           <td>lieh</td>
@@ -504,7 +613,7 @@
           <td>hat geliehen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>lesen</th>
           <td>liest</td>
           <td>las</td>
@@ -512,7 +621,7 @@
           <td>hat gelesen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>liegen</th>
           <td>liegt</td>
           <td>lag</td>
@@ -520,7 +629,7 @@
           <td>hat gelegen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>lügen</th>
           <td>lügt</td>
           <td>log</td>
@@ -528,7 +637,9 @@
           <td>hat gelogen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- mahlen: strong, Collins 92 -->
+        <!-- meiden: strong, Collins 93 -->
+        <tr class="strong">
           <th>messen</th>
           <td>misst</td>
           <td>maß</td>
@@ -536,15 +647,16 @@
           <td>hat gemessen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- mißtrauen: weak, Collins 95 -->
+        <tr class="modal">
           <th>mögen</th>
-          <td>mag (/ möchte)</td>
+          <td>mag (/&nbsp;möchte)</td>
           <td>mochte</td>
           <td>möchte</td>
           <td>hat mögen / gemocht</td>
           <td>Vollverb: gemocht</td>
         </tr>
-        <tr>
+        <tr class="modal">
           <th>müssen</th>
           <td>muss</td>
           <td>musste</td>
@@ -552,7 +664,7 @@
           <td>hat müssen / gemusst</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>nehmen</th>
           <td>nimmt</td>
           <td>nahm</td>
@@ -560,8 +672,15 @@
           <td>hat genommen</td>
           <td></td>
         </tr>
-        <!-- nennen -->
-        <tr>
+        <tr class="mixed"><!-- mixed according to Collins -->
+          <th>nennen</th>
+          <td>nennt</td>
+          <td>nannte</td>
+          <td>nennte</td>
+          <td>hat genannt</td>
+          <td></td>
+        </tr>
+        <tr class="strong">
           <th>pfeifen</th>
           <td>pfeift</td>
           <td>pfiff</td>
@@ -569,7 +688,10 @@
           <td>hat gepfiffen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- preisen: strong, Collins 101 -->
+        <!-- quellen: strong, Collins 102 -->
+        <!-- rasen: weak, Collins 103 -->
+        <tr class="strong">
           <th>raten</th>
           <td>rät</td>
           <td>riet</td>
@@ -577,7 +699,9 @@
           <td>hat geraten</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- rechnen: weak, Collins 105 -->
+        <!-- reden: weak, Collins 106 -->
+        <tr class="strong">
           <th>reiben</th>
           <td>reibt</td>
           <td>rieb</td>
@@ -585,23 +709,24 @@
           <td>hat gerieben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>reißen</th>
           <td>reißt</td>
           <td>riss</td>
           <td>risse</td>
-          <td>hat gerissen</td>
-          <td></td>
+          <td>hat gerissen / ist gerissen</td>
+          <td>ist gerissen: intransitiv<!-- @@ --></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>reiten</th>
           <td>reitet</td>
           <td>ritt</td>
           <td>ritte</td>
-          <td>ist geritten</td>
-          <td></td>
+          <td>ist geritten / hat geritten</td>
+          <td>ist geritten: intransitiv</td>
         </tr>
-        <tr>
+        <!-- rennen: mixed, Collins 110 -->
+        <tr class="strong">
           <th>riechen</th>
           <td>riecht</td>
           <td>roch</td>
@@ -609,7 +734,7 @@
           <td>hat gerochen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>ringen</th>
           <td>ringt</td>
           <td>rang</td>
@@ -617,8 +742,8 @@
           <td>hat gerungen</td>
           <td></td>
         </tr>
-        <!-- rinnen -->
-        <tr>
+        <!-- rinnen: strong, Collins 113 -->
+        <tr class="strong">
           <th>rufen</th>
           <td>ruft</td>
           <td>rief</td>
@@ -626,7 +751,7 @@
           <td>hat gerufen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>saufen</th>
           <td>säuft</td>
           <td>soff</td>
@@ -634,16 +759,18 @@
           <td>hat gesoffen</td>
           <td></td>
         </tr>
-        <!-- schaffen -->
-        <tr>
+        <!-- saugen: strong/weak, Collins 116 -->
+        <!-- schaffen: strong/weak, Collins 117 -->
+        <!-- schallen: strong/weak: Collins 118 -->
+        <tr class="strong">
           <th>scheiden</th>
           <td>scheidet</td>
           <td>schied</td>
           <td>schiede</td>
-          <td>hat gschieden</td>
-          <td></td>
+          <td>hat gschieden / ist geschieden</td>
+          <td></td><!-- @@haben/sein: andere Bedeutung -->
         </tr>
-        <tr>
+        <tr class="strong">
           <th>scheinen</th>
           <td>scheint</td>
           <td>schien</td>
@@ -651,8 +778,17 @@
           <td>hat geschienen</td>
           <td></td>
         </tr>
+        <!-- schelten: strong, Collins 121 -->
+        <tr class="weak">
+          <th>schenken</th>
+          <td>schenkt</td>
+          <td>schenkte</td>
+          <td>schenkte</td>
+          <td>hat geschenkt</td>
+          <td>(schwach; stark im Niederländischen)</td>
+        </tr>
         <!-- scheißen -->
-        <tr>
+        <tr class="strong">
           <th>schieben</th>
           <td>schiebt</td>
           <td>schob</td>
@@ -660,7 +796,7 @@
           <td>hat geschoben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schießen</th>
           <td>schießt</td>
           <td>schoss</td>
@@ -668,7 +804,7 @@
           <td>hat geschossen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schlafen</th>
           <td>schläft</td>
           <td>schlief</td>
@@ -676,7 +812,7 @@
           <td>hat geschlafen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schlagen</th>
           <td>schlägt</td>
           <td>schlug</td>
@@ -684,9 +820,9 @@
           <td>hat geschlagen</td>
           <td></td>
         </tr>
-        <!-- schleichen -->
-        <!-- schleifen -->
-        <tr>
+        <!-- schleichen: strong, Collins 127 -->
+        <!-- schleifen: strong, Collins 128 -->
+        <tr class="strong">
           <th>schließen</th>
           <td>schließt</td>
           <td>schloss</td>
@@ -694,7 +830,9 @@
           <td>hat geschlossen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- schlingen: strong, Collins 130 -->
+        <!-- schmeißen: strong, Collins 131 -->
+        <tr class="strong">
           <th>schmelzen</th>
           <td>schmilzt</td>
           <td>schmolz</td>
@@ -702,7 +840,7 @@
           <td>hat geschmolzen</td>
           <td>(mit &lsquo;sein&rsquo;: andere Bedeutung)</td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schneiden</th>
           <td>schneidet</td>
           <td>schnitt</td>
@@ -718,7 +856,7 @@
           <td>ist geschrocken<!-- @@not in Collins or in Duden Grammatiktabellen --></td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schreiben</th>
           <td>schreibt</td>
           <td>schrieb</td>
@@ -726,7 +864,7 @@
           <td>hat geschrieben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schreien</th>
           <td>schreit</td>
           <td>schrie</td>
@@ -734,7 +872,7 @@
           <td>hat geschriehen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schreiten</th>
           <td>schreitet</td>
           <td>schritt</td>
@@ -742,7 +880,7 @@
           <td>ist geschritten</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schweigen</th>
           <td>schweigt</td>
           <td>schwieg</td>
@@ -750,15 +888,16 @@
           <td>hat geschwiegen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- schwellen: strong, Collins 138 -->
+        <tr class="strong">
           <th>schwimmen</th>
           <td>schwimmt</td>
           <td>schwamm</td>
           <td>schwämme / schwömme</td>
-          <td>ist geschwommen (/ hat geschwommen)</td><!-- @@Duden Grammatiktabellen S. 148 -->
+          <td>ist geschwommen (/&nbsp;hat geschwommen)</td><!-- @@Duden Grammatiktabellen S. 148 -->
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schwingen</th>
           <td>schwingt</td>
           <td>schwang</td>
@@ -766,7 +905,7 @@
           <td>hat geschwungen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>schwören</th>
           <td>schwört</td>
           <td>schwor</td>
@@ -774,15 +913,15 @@
           <td>hat geschworen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>sehen</th>
           <td>sieht</td>
           <td>sah</td>
           <td>sähe</td>
-          <td>hat gesehen (/ hat sehen)</td>
+          <td>hat gesehen (/&nbsp;hat sehen)</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="modal"><!-- @@strong in Collins?? -->
           <th>sein</th>
           <td>ist</td>
           <td>war</td>
@@ -790,8 +929,23 @@
           <td>ist gewesen</td>
           <td></td>
         </tr>
-        <!-- senden -->
-        <tr>
+        <tr class="mixed"><!-- mixed according to Collins 144 -->
+          <th>senden</th>
+          <td>sendet</td>
+          <td>sandte</td>
+          <td>sendete</td>
+          <td>hat gesandt</td>
+          <td><!-- to send --></td>
+        </tr>
+        <tr class="weak">
+          <th>senden</th>
+          <td>sendet</td>
+          <td>sendete</td>
+          <td>sendete</td>
+          <td>hat gesendet</td>
+          <td><!-- to broadcast --></td>
+        </tr>
+        <tr class="strong">
           <th>singen</th>
           <td>singt</td>
           <td>sang</td>
@@ -799,7 +953,7 @@
           <td>hat gesungen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>sinken</th>
           <td>sinkt</td>
           <td>sank</td>
@@ -807,7 +961,7 @@
           <td>ist gesunken</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>sinnen</th>
           <td>sinnt</td>
           <td>sann</td>
@@ -815,7 +969,7 @@
           <td>hat gesonnen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>sitzen</th>
           <td>sitzt</td>
           <td>saß</td>
@@ -823,7 +977,7 @@
           <td>hat gesessen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="modal">
           <th>sollen</th>
           <td>soll</td>
           <td>sollte</td>
@@ -831,7 +985,9 @@
           <td>hat gesollt / sollen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- speien: strong, Collins 150 -->
+        <!-- spinnen: strong, Collins 151 -->
+        <tr class="strong">
           <th>sprechen</th>
           <td>spricht</td>
           <td>sprach</td>
@@ -839,7 +995,8 @@
           <td>hat gesprochen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- sprießen: strong, Collins 153 -->
+        <tr class="strong">
           <th>springen</th>
           <td>springt</td>
           <td>sprang</td>
@@ -848,7 +1005,7 @@
           <td></td>
         </tr>
         <!-- stattfinden -->
-        <tr>
+        <tr class="strong">
           <th>stechen</th>
           <td>sticht</td>
           <td>stach</td>
@@ -856,8 +1013,8 @@
           <td>hat gestochen</td>
           <td></td>
         </tr>
-        <!-- stecken -->
-        <tr>
+        <!-- stecken: strong/weak, Collins 156 -->
+        <tr class="strong">
           <th>stehen</th>
           <td>steht</td>
           <td>stand</td>
@@ -865,7 +1022,7 @@
           <td>hat gestanden</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>stehlen</th>
           <td>stiehlt</td>
           <td>stahl</td>
@@ -873,7 +1030,7 @@
           <td>hat gestohlen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>steigen</th>
           <td>steigt</td>
           <td>stieg</td>
@@ -881,7 +1038,7 @@
           <td>ist gestiegen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>sterben</th>
           <td>stirbt</td>
           <td>starb</td>
@@ -889,8 +1046,8 @@
           <td>ist gestorben</td>
           <td></td>
         </tr>
-        <!-- stinken -->
-        <tr>
+        <!-- stinken: strong, Collins 161 -->
+        <tr class="strong">
           <th>stoßen</th>
           <td>stößt</td>
           <td>stieß</td>
@@ -898,7 +1055,7 @@
           <td>hat gestoßen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>streichen</th>
           <td>streicht</td>
           <td>strich</td>
@@ -906,7 +1063,7 @@
           <td>hat gestrichen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>streiten</th>
           <td>streitet</td>
           <td>stritt</td>
@@ -914,8 +1071,17 @@
           <td>hat gestritten</td>
           <td></td>
         </tr>
+        <!-- studieren: weak, Collins 165 -->
+        <tr class="weak">
+          <th>tauchen</th>
+          <td>taucht</td>
+          <td>tauchte</td>
+          <td>tauchte</td>
+          <td>hat/ist getaucht</td><!-- @@check different meanings -->
+          <td>(schwach; stark im Niederländischen)</td>
+        </tr>
         <!-- teilnehmen -->
-        <tr>
+        <tr class="strong">
           <th>tragen</th>
           <td>trägt</td>
           <td>trug</td>
@@ -923,7 +1089,7 @@
           <td>hat getragen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>treffen</th>
           <td>trifft</td>
           <td>traf</td>
@@ -931,7 +1097,7 @@
           <td>hat getroffen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>treiben</th>
           <td>treibt</td>
           <td>trieb</td>
@@ -939,15 +1105,15 @@
           <td>hat getrieben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>treten</th>
           <td>tritt</td>
           <td>trat</td>
           <td>träte</td>
           <td>hat getreten / ist getreten</td>
-          <td><!-- haben/sein: andere Bedeutung --></td>
+          <td>ist getreten: intransitiv<!-- @@haben/sein: andere Bedeutung --></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>trinken</th>
           <td>trinkt</td>
           <td>trank</td>
@@ -955,7 +1121,8 @@
           <td>hat getrunken</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- trügen: strong, Collins 171 -->
+        <tr class="strong">
           <th>tun</th>
           <td>tut</td>
           <td>tat</td>
@@ -965,6 +1132,7 @@
         </tr>
         <!-- überfahren -->
         <!-- übertreiben -->
+        <!-- sich überlegen: weak, Collins 173 -->
         <!-- umziehen -->
         <!-- unterbrechen -->
         <!-- unternehmen -->
@@ -972,8 +1140,9 @@
         <!-- verbieten -->
         <!-- verbrennen -->
         <!-- verbringen -->
-        <!-- verderben -->
-        <tr>
+        <!-- verderben: strong, Collins 174 -->
+        <!-- verdrießen: strong, Collins 175 -->
+        <tr class="strong">
           <th>vergessen</th>
           <td>vergisst</td>
           <td>vergaß</td>
@@ -983,9 +1152,10 @@
         </tr>
         <!-- vergleichen -->
         <!-- sich verhalten -->
+        <!-- verlangen: weak, Collins 177 -->
         <!-- verlassen -->
         <!-- sich verlaufen -->
-        <tr>
+        <tr class="strong">
           <th>verlieren</th>
           <td>verliert</td>
           <td>verlor</td>
@@ -994,7 +1164,8 @@
           <td></td>
         </tr>
         <!-- verraten -->
-        <tr>
+        <!-- verschleißen: strong, Collins 179 -->
+        <tr class="strong">
           <th>verschwinden</th>
           <td>verscwhindet</td>
           <td>verschwand</td>
@@ -1005,7 +1176,7 @@
         <!-- versprechen -->
         <!-- verstehen -->
         <!-- vertreten -->
-        <tr>
+        <tr class="strong">
           <th>verzeihen</th>
           <td>verzeiht</td>
           <td>verzieh</td>
@@ -1013,7 +1184,7 @@
           <td>hat verziehen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>wachsen</th>
           <td>wächst</td>
           <td>wuchs</td>
@@ -1021,7 +1192,10 @@
           <td>ist gewachsen</td>
           <td></td>
         </tr>
-        <tr>
+        <!-- wachsen: weak: andere Bedeutung -->
+        <!-- wägen: strong, Collins 183 -->
+        <!-- wandern: weak, Collins 184 -->
+        <tr class="strong">
           <th>waschen</th>
           <td>wäscht</td>
           <td>wusch</td>
@@ -1029,9 +1203,26 @@
           <td>hat gewaschen</td>
           <td></td>
         </tr>
-        <!-- weben -->
-        <!-- wenden -->
-        <tr>
+        <!-- weben: strong/weak, Collins 186 -->
+        <!-- weichen: strong, Collins 187 -->
+        <!-- weisen: strong, Collins 188 -->
+        <tr class="mixed"><!-- mixed according to Collins 189 -->
+          <th>wenden</th>
+          <td>wendet</td>
+          <td>wandte</td>
+          <td>wendete</td>
+          <td>hat gewandt</td>
+          <td><!-- to turn --></td>
+        </tr>
+        <tr class="weak">
+          <th>wenden</th>
+          <td>wendet</td>
+          <td>wendete</td>
+          <td>wendete</td>
+          <td>hat gewendet</td>
+          <td><!-- @@same meaning? --></td>
+        </tr>
+        <tr class="strong">
           <th>werben</th>
           <td>wirbt</td>
           <td>warb</td>
@@ -1039,7 +1230,7 @@
           <td>hat geworben</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="irregular"><!-- @@irregular: Duden Grammatiktabellen S. 203 -->
           <th>werden</th>
           <td>wird</td>
           <td>wurde</td>
@@ -1047,7 +1238,7 @@
           <td>ist geworden</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>werfen</th>
           <td>wirft</td>
           <td>warf</td>
@@ -1056,7 +1247,7 @@
           <td></td>
         </tr>
         <!-- widersprechen -->
-        <tr>
+        <tr class="strong">
           <th>wiegen</th>
           <td>wiegt</td>
           <td>wog</td>
@@ -1064,7 +1255,7 @@
           <td>hat gewogen</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>winden</th>
           <td>windet</td>
           <td>wand</td>
@@ -1072,7 +1263,7 @@
           <td>hat gewunden</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="strong">
           <th>wissen</th>
           <td>weiß</td>
           <td>wusste</td>
@@ -1080,24 +1271,26 @@
           <td>hat gewusst</td>
           <td></td>
         </tr>
-        <tr>
+        <tr class="modal">
           <th>wollen</th>
           <td>will</td>
           <td>wollte</td>
           <td>wollte</td>
           <td>hat wollen / hat gewollt</td><!--@@ Modalverb vs Vollverb -->
-          <td></td>
+          <td>hat gewollt: Vollverb</td>
         </tr>
-        <tr>
+        <!-- wringen: strong, Collins 197 -->
+        <!-- zerstören: weak, Collins 198 -->
+        <tr class="strong">
           <th>ziehen</th>
           <td>zieht</td>
           <td>zog</td>
           <td>zöge</td>
-          <td>hat gezogen</td>
+          <td>hat gezogen / ist gezogen</td>
           <td></td>
         </tr>
         <!-- zunehmen -->
-        <tr>
+        <tr class="strong">
           <th>zwingen</th>
           <td>zwingt</td>
           <td>zwang</td>
