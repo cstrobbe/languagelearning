@@ -9,10 +9,9 @@
   <style type="text/css">
   /*
     tr.strong { background-color: transparent; color: cornflowerblue; }
-    tr.modal { background-color: transparent; color: red; }
-    tr.weak { background-color: transparent; color: grey; }
+    tr.modal, tr.auxiliary { background-color: transparent; color: red; }
+    tr.weak { background-color: transparent; color: #444; }
     tr.mixed, tr.irregular { background-color: transparent; color: green; }
-    // tr.irregular {}
   */
   </style>
 </head>
@@ -91,6 +90,10 @@
       </li>
       <li>Starke Verben, <abbr>z.B.</abbr> bleiben, rufen, fliehen, lassen, singen, fahren, treffen, helfen.</li>
     </ul>
+    <p>Manche Verben haben sowohl starke als schwache Formen, anderen haben sowohl trennbare als untrennbare Formen. 
+      Wenn diese Formen unterschiedliche Bedeutungen haben, werden sie in unterschiedlichen Reihen aufgeführt.
+      Beispiele: bewegen, durchsetzen, erschrecken, hängen, schaffen, senden, wachsen, wenden.
+    </p>
 
     <table>
       <thead>
@@ -233,7 +236,7 @@
           <td></td>
         </tr>
         <tr class="weak">
-          <th>ausreichen</th><!-- @@stress -->
+          <th>ausreichen (1. Silbe betont)</th>
           <td>reicht aus</td>
           <td>reichte aus</td>
           <td>reichte aus</td>
@@ -630,8 +633,16 @@
           <td>erschrak</td>
           <td>erschräke</td>
           <td>ist erschrocken (/&nbsp;hat erschrocken)</td>
-          <td>Stark: intransitiv. Schwach: transitiv.</td>
-        </tr><!-- @@split into two rows -->
+          <td>Stark: intransitiv.</td>
+        </tr>
+        <tr class="weak">
+          <th>erschrecken</th>
+          <td>erschreckt</td>
+          <td>erschreckte</td>
+          <td>erschreckte</td>
+          <td>hat erschreckt</td>
+          <td>Schwach: transitiv.</td>
+        </tr>
         <tr class="weak">
           <th>erzählen</th>
           <td>erzählt</td>
@@ -966,7 +977,7 @@
           <td>hat gegrüßt</td>
           <td></td>
         </tr>
-        <tr class="modal"><!-- @@irregular: Duden Grammatiktabellen S. 95 -->
+        <tr class="auxiliary"><!-- @@irregular: Duden Grammatiktabellen S. 95 -->
           <th>haben</th>
           <td>hat</td>
           <td>hatte</td>
@@ -1376,7 +1387,7 @@
           <td>ist geritten / hat geritten</td>
           <td>Sein: intransitiv. Haben: transitiv.</td>
         </tr>
-        <tr class="mixed">
+        <tr class="mixed"><!-- @@irregular: Duden Grammatiktabellen S. 126 -->
           <th>rennen</th>
           <td>rennt</td>
           <td>rannte</td>
@@ -1392,7 +1403,7 @@
           <td>hat repariert</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 127 -->
           <th>riechen</th>
           <td>riecht</td>
           <td>roch</td>
@@ -1400,7 +1411,7 @@
           <td>hat gerochen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 128 -->
           <th>ringen</th>
           <td>ringt</td>
           <td>rang</td>
@@ -1408,7 +1419,7 @@
           <td>hat gerungen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 129 -->
           <th>rinnen</th>
           <td>rinnt</td>
           <td>rann</td>
@@ -1416,7 +1427,7 @@
           <td>ist geronnen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 130 -->
           <th>rufen</th>
           <td>ruft</td>
           <td>rief</td>
@@ -1424,7 +1435,7 @@
           <td>hat gerufen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 131 -->
           <th>saufen</th>
           <td>säuft</td>
           <td>soff</td>
@@ -1448,7 +1459,7 @@
           <td>hat sich geschämt</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 132 -->
           <th>schaffen</th>
           <td>schafft</td>
           <td>schuf&nbsp;/ schaffte</td>
@@ -1472,7 +1483,7 @@
           <td>hat geschallt (/&nbsp;geschollen)</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 133 -->
           <th>scheiden</th>
           <td>scheidet</td>
           <td>schied</td>
@@ -1482,12 +1493,20 @@
             Sein: intransitiv (gehoben).
           </td><!-- @@haben/sein: andere Bedeutung -->
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 134 -->
           <th>scheinen</th>
           <td>scheint</td>
           <td>schien</td>
           <td>schiene</td>
           <td>hat geschienen</td>
+          <td></td>
+        </tr>
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 135 -->
+          <th>scheißen</th>
+          <td>scheißt</td>
+          <td>schiss</td>
+          <td>schisse</td>
+          <td>hat geschissen</td>
           <td></td>
         </tr>
         <tr class="strong">
@@ -1506,15 +1525,7 @@
           <td>hat geschenkt</td>
           <td>(schwach; stark im Niederländischen)</td>
         </tr>
-        <tr class="strong">
-          <th>scheißen</th>
-          <td>scheißt</td>
-          <td>schiss</td>
-          <td>schisse</td>
-          <td>hat geschissen</td>
-          <td></td>
-        </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 136 -->
           <th>schieben</th>
           <td>schiebt</td>
           <td>schob</td>
@@ -1522,7 +1533,7 @@
           <td>hat geschoben</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 137 -->
           <th>schießen</th>
           <td>schießt</td>
           <td>schoss</td>
@@ -1530,7 +1541,7 @@
           <td>hat geschossen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 138 -->
           <th>schlafen</th>
           <td>schläft</td>
           <td>schlief</td>
@@ -1538,7 +1549,7 @@
           <td>hat geschlafen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 139 -->
           <th>schlagen</th>
           <td>schlägt</td>
           <td>schlug</td>
@@ -1546,7 +1557,7 @@
           <td>hat geschlagen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 140 -->
           <th>schleichen</th>
           <td>schleicht</td>
           <td>schlich</td>
@@ -1554,7 +1565,7 @@
           <td>ist geschlichen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 141 -->
           <th>schleifen</th>
           <td>schleift</td>
           <td>schliff</td>
@@ -1562,7 +1573,7 @@
           <td>hat geschliffen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 142 -->
           <th>schließen</th>
           <td>schließt</td>
           <td>schloss</td>
@@ -1586,7 +1597,7 @@
           <td>hat geschmissen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 143 -->
           <th>schmelzen</th>
           <td>schmilzt</td>
           <td>schmolz</td>
@@ -1594,7 +1605,7 @@
           <td>hat geschmolzen</td>
           <td>(mit &lsquo;sein&rsquo;: andere Bedeutung)</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 144 -->
           <th>schneiden</th>
           <td>schneidet</td>
           <td>schnitt</td>
@@ -1610,7 +1621,7 @@
           <td>ist geschrocken<!-- @@not in Collins or in Duden Grammatiktabellen --></td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 145 -->
           <th>schreiben</th>
           <td>schreibt</td>
           <td>schrieb</td>
@@ -1618,7 +1629,7 @@
           <td>hat geschrieben</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 146 -->
           <th>schreien</th>
           <td>schreit</td>
           <td>schrie</td>
@@ -1634,7 +1645,7 @@
           <td>ist geschritten</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 147 -->
           <th>schweigen</th>
           <td>schweigt</td>
           <td>schwieg</td>
@@ -1650,7 +1661,7 @@
           <td>ist geschwollen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 148 -->
           <th>schwimmen</th>
           <td>schwimmt</td>
           <td>schwamm</td>
@@ -1666,7 +1677,7 @@
           <td>hat geschwungen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 149 -->
           <th>schwören</th>
           <td>schwört</td>
           <td>schwor</td>
@@ -1674,7 +1685,7 @@
           <td>hat geschworen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 150 -->
           <th>sehen</th>
           <td>sieht</td>
           <td>sah</td>
@@ -1682,7 +1693,7 @@
           <td>hat gesehen (/&nbsp;hat sehen)</td>
           <td></td>
         </tr>
-        <tr class="modal"><!-- @@strong in Collins?? -->
+        <tr class="auxiliary"><!-- @@strong in Collins --><!-- @@irregular: Duden Grammatiktabellen S. 151 -->
           <th>sein</th>
           <td>ist</td>
           <td>war</td>
@@ -1690,7 +1701,7 @@
           <td>ist gewesen</td>
           <td></td>
         </tr>
-        <tr class="mixed"><!-- mixed according to Collins 144 -->
+        <tr class="mixed"><!-- mixed according to Collins 144 --><!-- @@irregular: Duden Grammatiktabellen S. 152 -->
           <th>senden</th>
           <td>sendet</td>
           <td>sandte (/&nbsp;sendete)</td>
@@ -1706,7 +1717,7 @@
           <td>hat gesendet</td>
           <td>[Rundfunk] ausstrahlen</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 153 -->
           <th>singen</th>
           <td>singt</td>
           <td>sang</td>
@@ -1714,7 +1725,7 @@
           <td>hat gesungen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 154 -->
           <th>sinken</th>
           <td>sinkt</td>
           <td>sank</td>
@@ -1730,7 +1741,7 @@
           <td>hat gesonnen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 155 -->
           <th>sitzen</th>
           <td>sitzt</td>
           <td>saß</td>
@@ -1762,7 +1773,7 @@
           <td>hat gesponnen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 156 -->
           <th>sprechen</th>
           <td>spricht</td>
           <td>sprach</td>
@@ -1778,7 +1789,7 @@
           <td>ist gesprossen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 157 -->
           <th>springen</th>
           <td>springt</td>
           <td>sprang</td>
@@ -1786,7 +1797,7 @@
           <td>ist gesprungen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 158 -->
           <th>stattfinden</th>
           <td>findet statt</td>
           <td>fand statt</td>
@@ -1794,7 +1805,7 @@
           <td>hat stattgefunden</td>
           <td>nur 3. Person Singular/Plural</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 159 -->
           <th>stechen</th>
           <td>sticht</td>
           <td>stach</td>
@@ -1802,7 +1813,7 @@
           <td>hat gestochen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@CS: irregular (Duden) -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 160 -->
           <th>stecken</th>
           <td>steckt</td>
           <td>steckte&nbsp;/ stak</td>
@@ -1818,7 +1829,7 @@
           <td>hat gesteckt</td>
           <td>Transitiv: schwach.</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 161 -->
           <th>stehen</th>
           <td>steht</td>
           <td>stand</td>
@@ -1826,7 +1837,7 @@
           <td>hat gestanden</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 162 -->
           <th>stehlen</th>
           <td>stiehlt</td>
           <td>stahl</td>
@@ -1834,7 +1845,7 @@
           <td>hat gestohlen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 163 -->
           <th>steigen</th>
           <td>steigt</td>
           <td>stieg</td>
@@ -1842,7 +1853,7 @@
           <td>ist gestiegen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 164 -->
           <th>sterben</th>
           <td>stirbt</td>
           <td>starb</td>
@@ -1850,7 +1861,7 @@
           <td>ist gestorben</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 165 -->
           <th>stinken</th>
           <td>stinkt</td>
           <td>stank</td>
@@ -1858,7 +1869,7 @@
           <td>hat gestunken</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 166 -->
           <th>stoßen</th>
           <td>stößt</td>
           <td>stieß</td>
@@ -1866,7 +1877,7 @@
           <td>hat gestoßen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 167 -->
           <th>streichen</th>
           <td>streicht</td>
           <td>strich</td>
@@ -1874,7 +1885,7 @@
           <td>hat gestrichen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 168 -->
           <th>streiten</th>
           <td>streitet</td>
           <td>stritt</td>
@@ -1898,7 +1909,7 @@
           <td>hat/ist getaucht</td><!-- @@check different meanings -->
           <td>(schwach; stark im Niederländischen)</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 169 -->
           <th>teilnehmen</th>
           <td>nimmt teil</td>
           <td>nahm teil</td>
@@ -1906,7 +1917,7 @@
           <td>hat teilgenommen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 170 -->
           <th>tragen</th>
           <td>trägt</td>
           <td>trug</td>
@@ -1914,7 +1925,7 @@
           <td>hat getragen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 171 -->
           <th>treffen</th>
           <td>trifft</td>
           <td>traf</td>
@@ -1922,7 +1933,7 @@
           <td>hat getroffen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 172 -->
           <th>treiben</th>
           <td>treibt</td>
           <td>trieb</td>
@@ -1930,7 +1941,7 @@
           <td>hat getrieben</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 173 -->
           <th>treten</th>
           <td>tritt</td>
           <td>trat</td>
@@ -1938,7 +1949,7 @@
           <td>hat getreten / ist getreten</td>
           <td>ist getreten: intransitiv<!-- @@haben/sein: andere Bedeutung --></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 174 -->
           <th>trinken</th>
           <td>trinkt</td>
           <td>trank</td>
@@ -1954,7 +1965,7 @@
           <td>hat getrogen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 175 -->
           <th>tun</th>
           <td>tut</td>
           <td>tat</td>
@@ -1962,7 +1973,7 @@
           <td>hat getan</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 176 -->
           <th>überfahren</th>
           <td>überfährt</td>
           <td>überfuhr</td>
@@ -1970,7 +1981,7 @@
           <td>hat überfahren</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 177 -->
           <th>übertreiben</th>
           <td>übertreibt</td>
           <td>übertrieb</td>
@@ -1986,7 +1997,7 @@
           <td>hat sich überlegt</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 178 -->
           <th>umziehen</th>
           <td>zieht um</td>
           <td>zog um</td>
@@ -1994,7 +2005,7 @@
           <td>ist umgezogen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 179 -->
           <th>unterbrechen</th>
           <td>unterbricht</td>
           <td>unterbrach</td>
@@ -2002,7 +2013,7 @@
           <td>hat unterbrochen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 180 -->
           <th>unternehmen</th>
           <td>unternimmt</td>
           <td>unternahm</td>
@@ -2010,7 +2021,7 @@
           <td>hat unternommen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 181 -->
           <th>unterscheiden</th>
           <td>unterscheidet</td>
           <td>unterschied</td>
@@ -2026,7 +2037,7 @@
           <td>hat verborgen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 182 -->
           <th>verbieten</th>
           <td>verbietet</td>
           <td>verbot</td>
@@ -2034,7 +2045,7 @@
           <td>hat verboten</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 183 -->
           <th>verbrennen</th>
           <td>verbrennt</td>
           <td>verbrannte</td>
@@ -2042,7 +2053,7 @@
           <td>hat verbrannt</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 184 -->
           <th>verbringen</th>
           <td>verbringt</td>
           <td>verbrachte</td>
@@ -2050,7 +2061,7 @@
           <td>hat verbracht</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 185 -->
           <th>verderben</th>
           <td>verdirbt</td>
           <td>verdarb</td>
@@ -2066,7 +2077,7 @@
           <td>hat verdrossen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 186 -->
           <th>vergessen</th>
           <td>vergisst</td>
           <td>vergaß</td>
@@ -2074,7 +2085,7 @@
           <td>hat vergessen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 187 -->
           <th>vergleichen</th>
           <td>vergleicht</td>
           <td>verglich</td>
@@ -2082,7 +2093,7 @@
           <td>hat verglichen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 188 -->
           <th>sich verhalten</th>
           <td>verhält sich</td>
           <td>verhielt sich</td>
@@ -2098,7 +2109,7 @@
           <td>hat verlangt</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 189 -->
           <th>verlassen</th>
           <td>verlässt</td>
           <td>verließ</td>
@@ -2106,7 +2117,7 @@
           <td>hat verlassen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 190 -->
           <th>sich verlaufen</th>
           <td>verläuft sich</td>
           <td>verlief sich</td>
@@ -2114,7 +2125,7 @@
           <td>hat sich verlaufen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 191 -->
           <th>verlieren</th>
           <td>verliert</td>
           <td>verlor</td>
@@ -2122,7 +2133,7 @@
           <td>hat verloren</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 192 -->
           <th>verraten</th>
           <td>verrät</td>
           <td>verriet</td>
@@ -2138,7 +2149,7 @@
           <td>hat verschlissen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 193 -->
           <th>verschwinden</th>
           <td>verscwhindet</td>
           <td>verschwand</td>
@@ -2146,7 +2157,7 @@
           <td>ist verschwunden</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 194 -->
           <th>versprechen</th>
           <td>verspricht</td>
           <td>versprach</td>
@@ -2154,7 +2165,7 @@
           <td>hat versprochen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 195 -->
           <th>verstehen</th>
           <td>versteht</td>
           <td>verstand</td>
@@ -2162,7 +2173,7 @@
           <td>hat verstanden</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 196 -->
           <th>vertreten</th>
           <td>vertritt</td>
           <td>vertrat</td>
@@ -2178,7 +2189,7 @@
           <td>hat sich verzählt</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 197 -->
           <th>verzeihen</th>
           <td>verzeiht</td>
           <td>verzieh</td>
@@ -2186,7 +2197,7 @@
           <td>hat verziehen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 198 -->
           <th>wachsen</th>
           <td>wächst</td>
           <td>wuchs</td>
@@ -2218,7 +2229,7 @@
           <td>ist gewandert</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 199 -->
           <th>waschen</th>
           <td>wäscht</td>
           <td>wusch</td>
@@ -2226,7 +2237,7 @@
           <td>hat gewaschen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@strong & weak -->
+        <tr class="strong"><!-- @@strong & weak --><!-- @@irregular: Duden Grammatiktabellen S. 200 -->
           <th>weben</th>
           <td>webt</td>
           <td>webte&nbsp;/ wob</td>
@@ -2250,7 +2261,7 @@
           <td>hat gewiesen</td>
           <td></td>
         </tr>
-        <tr class="mixed"><!-- mixed according to Collins 189 -->
+        <tr class="mixed"><!-- mixed according to Collins 189 --><!-- @@irregular: Duden Grammatiktabellen S. 201 -->
           <th>wenden</th>
           <td>wendet</td>
           <td>wandte&nbsp;/ wendete</td>
@@ -2266,7 +2277,7 @@
           <td>hat gewendet</td>
           <td>umdrehen; umkehren</td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 202 -->
           <th>werben</th>
           <td>wirbt</td>
           <td>warb</td>
@@ -2274,7 +2285,7 @@
           <td>hat geworben</td>
           <td></td>
         </tr>
-        <tr class="irregular"><!-- @@irregular: Duden Grammatiktabellen S. 203 -->
+        <tr class="auxiliary"><!-- @@irregular: Duden Grammatiktabellen S. 203 -->
           <th>werden</th>
           <td>wird</td>
           <td>wurde</td>
@@ -2282,7 +2293,7 @@
           <td>ist geworden</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 204 -->
           <th>werfen</th>
           <td>wirft</td>
           <td>warf</td>
@@ -2290,7 +2301,7 @@
           <td>hat geworfen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 205 -->
           <th>widersprechen</th>
           <td>widerspricht</td>
           <td>widersprach</td>
@@ -2298,7 +2309,7 @@
           <td>hat widersprochen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 206 -->
           <th>wiegen</th>
           <td>wiegt</td>
           <td>wog</td>
@@ -2306,7 +2317,7 @@
           <td>hat gewogen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 207 -->
           <th>winden</th>
           <td>windet</td>
           <td>wand</td>
@@ -2322,7 +2333,7 @@
           <td>hat gewinkt</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 208 -->
           <th>wissen</th>
           <td>weiß</td>
           <td>wusste</td>
@@ -2354,7 +2365,7 @@
           <td>hat zerstört</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 209 -->
           <th>ziehen</th>
           <td>zieht</td>
           <td>zog</td>
@@ -2362,7 +2373,7 @@
           <td>hat gezogen / ist gezogen</td>
           <td></td>
         </tr>
-        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen -->
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 210 -->
           <th>zunehmen</th>
           <td>nimmt zu</td>
           <td>nahm zu</td>
@@ -2370,7 +2381,7 @@
           <td>hat zugenommen</td>
           <td></td>
         </tr>
-        <tr class="strong">
+        <tr class="strong"><!-- @@irregular: Duden Grammatiktabellen S. 211 -->
           <th>zwingen</th>
           <td>zwingt</td>
           <td>zwang</td>
