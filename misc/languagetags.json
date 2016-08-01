@@ -106,5 +106,11 @@
     "xgng": ["Hong Kong Cantonese", "香港粵語"],
     "es-MX": ["Mexican Spanish", "Español mexicano"],
     "es-CO": ["Colombian Spanish", "Español colombiano"],
-    "es-ES": ["Spanish (Spain)", "Español (España)"]
+    "es-ES": ["Spanish (Spain)", "Español (España)"],
+
+    "eo":   ["Esperanto",   "Esperanto"],
+    "ia":   ["Interlingua", "Interlingua"],
+    "ie":   ["Interlingue", "Interlingue"],
+    "io":   ["Ido",         "Ido"],
+    "vo":   ["Volapük",     "Volapük"]
 }
