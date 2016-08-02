@@ -112,5 +112,10 @@
     "ia":   ["Interlingua", "Interlingua"],
     "ie":   ["Interlingue", "Interlingue"],
     "io":   ["Ido",         "Ido"],
-    "vo":   ["Volapük",     "Volapük"]
+    "vo":   ["Volapük",     "Volapük"],
+    "afh":  ["Afrihili",    "El-Afrihili"],
+    "tlh":  ["Klingon",     "tlhIngan Hol"],
+    "jbo":  ["Lojban",      "la .lojban."],
+    "nov":  ["Novial",      "Novial"],
+    "lfn":  ["Lingua Franca Nova",  "Lingua Franca Nova"]
 }
