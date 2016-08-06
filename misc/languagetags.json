@@ -108,6 +108,10 @@
     "es-CO": ["Colombian Spanish", "Español colombiano"],
     "es-ES": ["Spanish (Spain)", "Español (España)"],
 
+    "fur":  ["Friulian",    "Furlan"],
+    "rm":   ["Romansh",     "Rumantsch"],
+    "lld":  ["Ladin",       "Ladin"],
+
     "eo":   ["Esperanto",   "Esperanto"],
     "ia":   ["Interlingua", "Interlingua"],
     "ie":   ["Interlingue", "Interlingue"],
@@ -117,5 +121,9 @@
     "tlh":  ["Klingon",     "tlhIngan Hol"],
     "jbo":  ["Lojban",      "la .lojban."],
     "nov":  ["Novial",      "Novial"],
-    "lfn":  ["Lingua Franca Nova",  "Lingua Franca Nova"]
+    "lfn":  ["Lingua Franca Nova",  "Lingua Franca Nova"],
+
+    "lzh":  ["Classical Chinese", "文言"],
+    "la":   ["Latin",       "Latina"],
+    "grc":  ["Ancient Greek", "Ἑλληνική"]
 }
