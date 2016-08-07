@@ -74,7 +74,7 @@
     "hu":  ["Hungarian",    "magyar"],
     "hne": ["Chhattisgarhi", "छत्तीसगढ़ी"],
     "el":  ["Greek",        "Ελληνικά"],
-    "ny":  ["Chewa",        "Nyanja"],
+    "ny":  ["Chewa",        "Chi-Chewa"],
     "dcc": ["Dakhini",      "دکنی"],
     "ak":  ["Akan",         "Akan"],
     "kk":  ["Kazakh",       "Қазақша"],
@@ -108,6 +108,7 @@
     "es-CO": ["Colombian Spanish", "Español colombiano"],
     "es-ES": ["Spanish (Spain)", "Español (España)"],
 
+    "vec":  ["Venetian",    "Vèneto"],
     "fur":  ["Friulian",    "Furlan"],
     "rm":   ["Romansh",     "Rumantsch"],
     "lld":  ["Ladin",       "Ladin"],
