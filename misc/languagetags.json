@@ -105,6 +105,7 @@
     "sh":  ["Serbo-Croatian", "Srpskohrvatski"],
     "hu":  ["Hungarian",    "Magyar"],
     "sr":  ["Serbian",      "Српски"],
+    "tg":  ["Tajik",        "Тоҷикӣ"],
     "hy":  ["Armenian",     "Հայերեն"],
     "bg":  ["Bulgarian",    "Български"],
     "sw":  ["Swahili",      "Kiswahili"],
@@ -114,10 +115,12 @@
     "kab": ["Kabyle",       "ⵜⴰⵇⴱⴰⵢⵍⵉⵜ"],
     "da":  ["Danish",       "Dansk"],
     "fi":  ["Finnish",      "Suomi"],
+    "sq":  ["Albanian",     "Shqip"],
     "sk":  ["Slovak",       "Slovenčina"],
     "no":  ["Norwegian",    "Norsk"],
     "he":  ["Hebrew",       "עברית"],
     "ka":  ["Georgian",     "ქართული"],
+    "ky":  ["Kyrgyz",       "Кыргызча"],
     "ca":  ["Catalan",      "Català"],
     "vec": ["Venetian",     "Vèneto"],
     "lt":  ["Lithuanian",   "Lietuvių"],
@@ -133,8 +136,11 @@
     "new": ["Newar",        "नेपाल भाषा"],
     "cy":  ["Welsh",        "Cymraeg"],
     "eu":  ["Basque",       "Euskara"],
+    "lb":  ["Luxembourgish", "Lëtzebuergesch"],
     "fur": ["Friulian",     "Furlan"],
     "oc":  ["Occitan",      "Occitan"],
+    "br":  ["Breton",       "Brezhoneg"],
+    "ast": ["Asturian",     "Asturianu"],
     "rm":  ["Romansh",      "Rumantsch"],
     "lld": ["Ladin",        "Ladin"],
     "nb":  ["Norwegian Bokmål", "Norsk bokmål"],
@@ -161,5 +167,6 @@
 
     "lzh":  ["Classical Chinese", "文言"],
     "la":   ["Latin",       "Latina"],
-    "grc":  ["Ancient Greek", "Ἑλληνική"]
+    "grc":  ["Ancient Greek", "Ἑλληνική"],
+    "ang":  ["Old English",  "Ænglisc"]
 }
