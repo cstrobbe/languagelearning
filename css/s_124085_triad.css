@@ -199,9 +199,12 @@ tbody tr th {
   background-color: transparent;
 }
 
-.solutions[lang=zh-CN], .solutions span[lang=zh-CN] { /*not: .solutions :lang(zh-CN)*/
-  font-size: 1.2em;
-  font-family: Simsun, 'MS Song', Song, STSong;
+/* Other Chinese fonts: "FangSong", "仿宋"; see http://www.kendraschaefer.com/2012/06/chinese-standard-web-fonts-the-ultimate-guide-to-css-font-family-declarations-for-web-design-in-simplified-chinese/ & http://webdesign.tutsplus.com/articles/the-complete-beginners-guide-to-chinese-fonts--cms-23444 */
+*[lang=zh-CN], rb[lang=zh-CN], span[lang=zh-CN], .solutions[lang=zh-CN], .solutions span[lang=zh-CN], td[lang=zh-CN] {
+  font-family: "KaiTi", "楷体", STKaiti, "华文楷体", STFangSong, "华文仿宋", Simsun, 'MS Song', Song, STSong;
+}
+*[lang=zh-CN], rb[lang=zh-CN], span[lang=zh-CN], .solutions[lang=zh-CN], .solutions span[lang=zh-CN], nav li a[lang=zh-CN] { /*not: .solutions :lang(zh-CN)*/
+  font-size: 1.3em;
 }
 .solutions[lang=zh-CN] span[lang=en], .solutions[lang=zh-CN] span[lang=en-GB], td.pinyin[lang=zh-CN], td[lang=zh-CN] span.pinyin {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
@@ -214,7 +217,6 @@ p.solutions[lang=zh-CN]{
 }
 td[lang=zh-CN] {
   font-size: 1.4em;
-  font-family: Simsun, 'MS Song', Song, STSong;
 }
 td.pinyin[lang=zh-CN] {
   font-size: 1em; 

@@ -155,3 +155,52 @@ p.movedcontent:hover, p.movedcontent:hover a, p.movedcontent:focus, p.movedconte
   margin-left: 0;
 }
 
+a.img, a.img:visited, a.img:hover, a.img:focus, a.img:active, a.img img {
+  border: none; padding: none;
+}
+
+/* see https://www.w3.org/TR/xhtml-media-types/style/ruby.css - used in https://www.w3.org/TR/xhtml-media-types/ */
+ruby {
+  display: inline-table;
+}
+
+ruby * {
+  display: inline;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: static;
+  text-indent: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+ruby > * {
+  display: table-row-group;
+  line-height: 100%; /*90%*/
+}
+
+ruby > rt, ruby rtc {
+  display: table-header-group;
+  font-size: 70%;
+  line-height: 40%;
+}
+
+ruby rtc + rtc {
+  display: table-footer-group;
+}
+
+ruby rbc > *, ruby rtc > * {
+  display: table-cell;
+}
+
+ruby rp {
+  display: none;
+}
+
+*|*:link ruby rt,
+*|*:visited ruby rt,
+*|*:link ruby rtc,
+*|*:visited ruby rtc {
+  text-decoration: none;
+}
