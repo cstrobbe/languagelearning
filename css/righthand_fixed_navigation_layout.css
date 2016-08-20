@@ -155,8 +155,8 @@ p.movedcontent:hover, p.movedcontent:hover a, p.movedcontent:focus, p.movedconte
   margin-left: 0;
 }
 
-a.img, a.img:visited, a.img:hover, a.img:focus, a.img:active, a.img img {
-  border: none; padding: none;
+a.imgurl, a.imgurl:visited, a.imgurl:hover, a.imgurl:focus, a.imgurl:active, a.imgurl {
+  border: none; padding: none; background: transparent;
 }
 
 /* see https://www.w3.org/TR/xhtml-media-types/style/ruby.css - used in https://www.w3.org/TR/xhtml-media-types/ */
