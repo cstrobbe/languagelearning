@@ -167,6 +167,14 @@ blockquote cite:before {
   content: "\2014 \2009";
 }
 
+blockquote.neutralquote {
+  margin: 0 0 0 0;
+}
+blockquote.neutralquote blockquote, blockquote.neutralquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 table {
   border-collapse: collapse;
   margin-bottom: 12pt;
