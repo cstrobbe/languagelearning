@@ -128,7 +128,7 @@ rp, rt {
   display: none;
 }
 
-.booktitle, .journal, .proceedings, .magazine, .newspaper, .website, .blog {
+.booktitle, .journal, .proceedings, .editedvolume, .magazine, .newspaper, .website, .blog {
   font-style: italic;
 }
 
