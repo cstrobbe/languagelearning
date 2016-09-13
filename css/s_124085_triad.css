@@ -175,6 +175,22 @@ blockquote.neutralquote blockquote, blockquote.neutralquote p {
   margin-bottom: 0;
 }
 
+dt, dd {
+  border-bottom: 1px solid  #7C3100;
+  color: inherit;
+  line-height: 1.4em;
+  padding-left: 4px;
+}
+dt {
+  background-color: #FDDB58;
+  margin-top: 4px;
+  font-weight: bolder;
+}
+dd {
+  border-left: 1px solid #7C3100;
+  margin-top: 2px;
+}
+
 table {
   border-collapse: collapse;
   margin-bottom: 12pt;
@@ -249,18 +265,3 @@ td[lang=zh-CN] span.pinyin {
   font-size: 0.7em;
 }
 
-dt, dd {
-  border-bottom: 1px solid  #7C3100;
-  color: inherit;
-  line-height: 1.4em;
-  padding-left: 4px;
-}
-dt {
-  background-color: #FDDB58;
-  margin-top: 4px;
-  font-weight: bolder;
-}
-dd {
-  border-left: 1px solid #7C3100;
-  margin-top: 2px;
-}
