@@ -449,7 +449,8 @@
     "wkl": ["Kalanadi",     ""],
     "crg": ["Michif",       ""],
     "ikt": ["Inuvialuktun", "Inuvialuktun"],
-    "gue": ["Gurindji",      ""],
+    "gue": ["Gurindji",     ""],
+    "hoy": ["Holiya",       ""],
     "pih": ["Pitcairn-Norfolk", ""],
     "dal": ["Dahalo",       ""],
     "all": ["Allar",        ""],
@@ -505,6 +506,7 @@
     "xlg": ["Ancient Ligurian", ""],
     "got": ["Gothic",       "𐌲𐌿𐍄𐌹𐍃𐌺𐍉𐍂𐌰𐌶𐌳𐌰"],
     "nbg": ["Nagarchal",    ""],
+    "url": ["Urali",        ""],
     "oar": ["Old Aramaic",  ""],
 
     "zh-CN": ["Chinese (China)", "中文"],
