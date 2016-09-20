@@ -26,7 +26,7 @@ nav {
   /*float: right; margin-top: -160px;*/ /* @@non-fixed position */
   width: 16em; /* @@TODO check min-width and max-width */ 
   height: auto;
-  padding: none;
+  padding: 0;
   top: .5em; right: 20px; bottom: auto; 
   left: auto;
   padding-bottom: 10px;
@@ -139,15 +139,6 @@ rp, rt {
 .hidden, .notyet {
   display: none;
 }
-/* @@ hide & show moved content does not work yet: */
-p.movedcontent, p.movedcontent a {
-  color: transparent;
-  background-color: transparent;
-}
-p.movedcontent:hover, p.movedcontent:hover a, p.movedcontent:focus, p.movedcontent:focus a {
-  color: #000;
-  background-color: inherit;
-}
 
 .homePageDecorativeImg {
   /*float: right;*/
@@ -157,7 +148,7 @@ p.movedcontent:hover, p.movedcontent:hover a, p.movedcontent:focus, p.movedconte
 }
 
 a.imgurl, a.imgurl:visited, a.imgurl:hover, a.imgurl:focus, a.imgurl:active, a.imgurl {
-  border: none; padding: none; background: transparent;
+  border: none; padding: 0; background: transparent;
 }
 
 /* see https://www.w3.org/TR/xhtml-media-types/style/ruby.css - used in https://www.w3.org/TR/xhtml-media-types/ */
