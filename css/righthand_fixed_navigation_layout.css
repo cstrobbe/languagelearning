@@ -26,7 +26,7 @@ nav {
   /*float: right; margin-top: -160px;*/ /* @@non-fixed position */
   width: 16em; /* @@TODO check min-width and max-width */ 
   height: auto;
-  padding: 0;
+  /*padding: 0;*//*'none' is not valid; '0' has undesired effect*/
   top: .5em; right: 20px; bottom: auto; 
   left: auto;
   padding-bottom: 10px;
