@@ -1,0 +1,198 @@
+
+header, nav, main, footer {
+  max-width: 45em; /* The 70em specified in WCAG-TECH C20 is much too wide: https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20160317/C20 */
+  clear: both;
+  display: block;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+header, main, footer {
+  margin-right: 18em;
+}
+
+header {
+  padding-top: 8px; padding-bottom: 4px;
+  margin-bottom: 24px;
+}
+
+header, main, nav {
+  clear: none;
+}
+
+nav {
+  position: relative; 
+  margin-top: -128px;
+  float: right; 
+  width: 16em; /* @@TODO check min-width and max-width */ 
+  height: auto;
+  /*padding: 0;*//*'none' is not valid; '0' has undesired effect*/
+  top: .5em; right: 20px; bottom: auto; 
+  left: auto;
+  padding-bottom: 10px;
+}
+
+nav#sitemap {
+  position: relative;
+  width: auto;
+  margin-left: 40px;
+}
+
+nav h2 {
+  margin-top: 6px; margin-bottom: 0;
+  font-size: 1.4em;
+}
+
+nav a { 
+  display: block;
+  height: 1.4em;
+  margin-bottom: 10px;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 6px 0;
+}
+
+nav > ul > li {
+  margin-bottom: 6px;
+  margin-right: 20px;
+  margin-left: -20px;
+  font-size: 1.05em;
+}
+
+nav > ul > li > ul {
+  list-style-type: none;
+  font-size: 0.94em;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+nav > ul > li > ul > li {
+  margin-top: 2px;
+}
+
+nav > ul > li.active a, nav > ul > li > ul > li.active a { 
+  cursor: default;
+}
+
+nav > ul > li.active > ul > li > a {
+  border-left: none;
+  cursor: pointer;
+}
+
+nav a:link,
+nav a:visited, 
+nav a:hover, nav a:focus,
+nav a:active {
+  font-size: 1em;
+  text-decoration: none;
+  padding-left: 2px;
+}
+
+main a, footer a {
+  padding-right: 2px; padding-left: 2px;
+}
+
+main h2 {
+  margin-top: 30px;
+}
+
+aside {
+  padding: 20px;
+}
+
+footer {
+  margin-top: 60px;
+  padding-left: 4px;
+  border-width: 4px 0px;
+  border-style: solid;
+}
+
+footer p {
+  font-size: 0.94em;
+}
+
+footer p a[rel=license]:first-child:hover, footer p a[rel=license]:first-child:focus {
+  background-color: transparent;
+}
+
+h1 {
+  letter-spacing: 0.15em;
+}
+
+rp, rt {
+  display: none;
+}
+
+.booktitle, .journal, .proceedings, .conference, .editedvolume, .phdthesis, .magazine, .newspaper, .website, .blog {
+  font-style: italic;
+}
+
+.booktitle[lang="zh-CN"], .booktitle *[lang="zh-CN"] {
+  font-style: normal;
+}
+
+.hidden, .notyet {
+  display: none;
+}
+
+.homePageDecorativeImg {
+  /*float: right;*/
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+a.imgurl, a.imgurl:visited, a.imgurl:hover, a.imgurl:focus, a.imgurl:active, a.imgurl {
+  border: none; padding: 0; background: transparent;
+}
+
+/* see https://www.w3.org/TR/xhtml-media-types/style/ruby.css - used in https://www.w3.org/TR/xhtml-media-types/ */
+ruby {
+  display: inline-table;
+}
+
+ruby * {
+  display: inline;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: static;
+  text-indent: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+ruby > * {
+  display: table-row-group;
+  line-height: 100%; /*90%*/
+}
+
+ruby > rt, ruby rtc {
+  display: table-header-group;
+  font-size: 70%;
+  line-height: 40%;
+}
+
+ruby rtc + rtc {
+  display: table-footer-group;
+}
+
+ruby rbc > *, ruby rtc > * {
+  display: table-cell;
+}
+
+ruby rp {
+  display: none;
+}
+
+*|*:link ruby rt,
+*|*:visited ruby rt,
+*|*:link ruby rtc,
+*|*:visited ruby rtc {
+  text-decoration: none;
+}
