@@ -16,14 +16,8 @@ header {
   margin-bottom: 24px;
 }
 
-/*header, main {
-  float: left;
-  clear: left;
-}*/ /* @@non-fixed position */
-
 nav {
   position: fixed;
-  /*float: right; margin-top: -160px;*/ /* @@non-fixed position */
   width: 16em; /* @@TODO check min-width and max-width */ 
   height: auto;
   /*padding: 0;*//*'none' is not valid; '0' has undesired effect*/
