@@ -24,6 +24,10 @@ nav {
   top: .5em; right: 20px; bottom: auto; 
   left: auto;
   padding-bottom: 10px;
+  /*overflow-x: auto;*/
+  overflow-y: auto;
+  box-shadow: -.1em 0 .25em rgba(0,0,0,.1) inset;
+  z-index: 1;
 }
 
 nav#sitemap {
