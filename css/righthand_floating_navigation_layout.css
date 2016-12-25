@@ -1,4 +1,15 @@
 
+body {
+  max-width: 70em;
+  margin: auto; /*centre content in viewport; added 24.12.2016*/
+  background-color: #FFF;
+}
+
+/*body p.toplinks {
+  margin-top: 0;
+  padding: 4px;
+}*/
+
 header, nav, main, footer {
   max-width: 45em; /* The 70em specified in WCAG-TECH C20 is much too wide: https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20160317/C20 */
   clear: both;
@@ -22,7 +33,7 @@ header, main, nav {
 
 nav {
   position: relative; 
-  margin-top: -128px;
+  margin-top: -128px; /*w p.toplinks in body:-144px*/ /*@@ask StackOverflow: why is this even necessary?*/
   float: right; 
   width: 16em; /* @@TODO check min-width and max-width */ 
   height: auto;
