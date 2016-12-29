@@ -5,6 +5,13 @@ body {
   background-color: #FFF;
 }
 
+body#languagetags {
+  max-width: none;
+}
+body#languagetags header, body#languagetags main, body#languagetags footer {
+  max-width: 72%;
+}
+
 /*body p.toplinks {
   margin-top: 0;
   padding: 4px;
