@@ -209,6 +209,7 @@ dd {
 
 dl.dialogue { 
   background-color: #FDDB58;
+  border-radius: 4px;
 }
 dl.dialogue dt, dl.dialogue dd {
   border-bottom: none;
