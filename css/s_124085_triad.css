@@ -20,8 +20,24 @@ header {
 }
 h1 {
   margin-top: 36px;
-  transform: rotate(2deg);
 }
+h1, header p.toplinks {
+  transform: rotate(2deg);
+  /*border: 1px dotted red;*/
+}
+/*body p.toplinks {
+  background-color: #09316D;
+  color: #FFF;
+}
+p.toplinks a:link, p.toplinks a:visited {
+  background-color: #09316D;
+  color: #FFF;
+}
+p.toplinks a:hover, p.toplinks a:focus, p.toplinks a:active {
+  background-color: #09316D;
+  color: #FFF;
+  text-decoration: none;
+}*/
 
 nav {
   background-color: #EEC62A;
@@ -189,6 +205,21 @@ dt {
 dd {
   border-left: 1px solid #7C3100;
   margin-top: 2px;
+}
+
+dl.dialogue { 
+  background-color: #FDDB58;
+}
+dl.dialogue dt, dl.dialogue dd {
+  border-bottom: none;
+  border-left: none;
+  background-color: transparent;
+  color: inherit;
+}
+dl.dialogue dt {
+  font-weight: normal;
+  font-variant: small-caps;
+  display: inline;
 }
 
 table {
