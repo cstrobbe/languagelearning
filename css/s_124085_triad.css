@@ -209,7 +209,7 @@ dd {
 
 dl.dialogue { 
   background-color: #FDDB58;
-  border-radius: 4px;
+  border-radius: 0px 10px;
 }
 dl.dialogue dt, dl.dialogue dd {
   border-bottom: none;
@@ -218,9 +218,9 @@ dl.dialogue dt, dl.dialogue dd {
   color: inherit;
 }
 dl.dialogue dt {
-  font-weight: normal;
+  font-weight: bolder;
   font-variant: small-caps;
-  display: inline;
+  color: #7C3100;
 }
 
 table {
