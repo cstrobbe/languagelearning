@@ -143,7 +143,7 @@ main ul li {
   list-style-image: url('../img/orangebrown_listsquare.png');
 }
 
-#introquote {
+.introquote {
   font-size: 1.1em;
   font-style: italic;
   width: 600px;
@@ -155,7 +155,7 @@ main ul li {
   color: #222222;
   border: 0;
 }
-#introquote:before {
+.introquote:before {
   display: block;
   content: "\201C";
   font-size: 80px;
