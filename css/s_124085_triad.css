@@ -138,9 +138,13 @@ h2, h3, h4, h5, h6 {
   background-color: transparent;
 }
 
-main ul li {
+main ul > li {
   /*list-style-type: square;*/
   list-style-image: url('../img/orangebrown_listsquare.png');
+}
+
+ol li {
+  list-style: lower-alpha;/*@@numbers*/
 }
 
 .introquote {
