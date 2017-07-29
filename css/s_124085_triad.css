@@ -3,6 +3,7 @@
 body {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
   background-color: transparent; color: #282828;
+  font-size: 1em; line-height: 1.4em;
 }
 
 header {
