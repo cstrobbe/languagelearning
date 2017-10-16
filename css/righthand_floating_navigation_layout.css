@@ -3,6 +3,7 @@ body {
   max-width: 70em;
   margin: auto; /*centre content in viewport; added 24.12.2016*/
   background-color: #FFF;
+  margin-top: 16px;
 }
 
 body#languagetags {
