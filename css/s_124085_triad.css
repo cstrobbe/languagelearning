@@ -1,9 +1,13 @@
 @import url("righthand_floating_navigation_layout.css");
 
-body {
+body, *[lang=zh-CN] *[lang=en]  {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
   background-color: transparent; color: #282828;
   font-size: 1em; line-height: 1.4em;
+}
+
+*[lang=zh-CN] *[lang=en] {
+  font-size: 1rem;
 }
 
 header {
@@ -305,4 +309,3 @@ td.pinyin[lang=zh-CN] {
 td[lang=zh-CN] span.pinyin {
   font-size: 0.7em;
 }
-
