@@ -1,9 +1,11 @@
-*.md~1~
-*.html~1~
 *.marks
+*.md~1~
+*.html~
+*.html~1~
 *.html~2~
 *.html~3~
 *.html~4~
+*.css~
 *.css~1~
 *.css~2~
 *.css~3~
