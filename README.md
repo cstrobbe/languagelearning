@@ -11,7 +11,7 @@ Submitting issues requires a GitHub account.
 
 ## Licence 
 
-Copyright: Christophe Strobbe, 2015 – 2018.
+Copyright: Christophe Strobbe, 2015 – 2019.
 
 Licence for (most of) the content: Creative Commons [CC BY-NC-SA 4.0](Licence_CC-BY-NC-SA-4.0.html),
 except where noted otherwise (e.g. images borrowed from elsewhere).
@@ -24,4 +24,3 @@ in the pull request's description that they make their contribution available un
 ## How to Clone
 How to clone this repository on the command line:
     `git clone https://github.com/cstrobbe/languagelearning.git`
-
