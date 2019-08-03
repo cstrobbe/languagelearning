@@ -309,3 +309,5 @@ td.pinyin[lang=zh-CN] {
 td[lang=zh-CN] span.pinyin {
   font-size: 0.7em;
 }
+
+.uppercase { text-transform: uppercase; }
