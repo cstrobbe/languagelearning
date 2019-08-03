@@ -63,3 +63,4 @@ main ul li {
   list-style-type: square;
 }
 
+.uppercase { text-transform: uppercase; }
