@@ -148,9 +148,8 @@ main ul > li {
   /*list-style-type: square;*/
   list-style-image: url('../img/orangebrown_listsquare.png');
 }
-
 ol li {
-  list-style: lower-alpha;/*@@numbers*/
+  list-style-image: none;
 }
 
 .introquote {
