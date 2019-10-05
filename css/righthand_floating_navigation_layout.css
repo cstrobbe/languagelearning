@@ -149,7 +149,7 @@ rp, rt {
   display: none;
 }
 
-.booktitle, .journal, .proceedings, .conference, .editedvolume, .phdthesis, .magazine, .newspaper, .website, .blog, .play {
+.booktitle, .journal, .proceedings, .conference, .editedvolume, .phdthesis, .magazine, .newspaper, .website, .blog, i.ytchannel, .play {
   font-style: italic;
 }
 
