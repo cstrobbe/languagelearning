@@ -12,7 +12,7 @@ Submitting issues requires a GitHub account.
 
 ## Licence 
 
-Copyright: Christophe Strobbe, 2015 – 2019.
+Copyright: Christophe Strobbe, 2015 – 2020.
 
 Licence for most of the content: Creative Commons [CC BY-NC-SA 4.0](Licence_CC-BY-NC-SA-4.0.html),
 except where noted otherwise (e.g. images borrowed from elsewhere).
