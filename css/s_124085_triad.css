@@ -89,7 +89,7 @@ nav a:hover, nav a:focus,
 nav a:active {
   font-size: 1em;
   text-decoration: none;
-  padding-left: 2px;
+  /*padding-left: 2px;*/
 }
 
 nav a:link,
