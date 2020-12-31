@@ -19,6 +19,17 @@ permalink: /404.html
     nav { margin-top: -400px; }
     p.topsy-turvy { text-align: right; }
   </style>
+  <base id="base-url" href="http://cstrobbe.github.io/languagelearning/" />
+  <script language="javascript">
+    let baseElem = document.getElementById("base-url");
+    let currentUrl = document.URL;
+    let onGithub = currentUrl.includes("cstrobbe.github.io");
+    //console.log("Base URL = " + baseElem.getAttribute("href") + " Document URL = " + currentUrl);
+    //console.log("currentUrl includes cstrobbe.github.io: " + onGithub );
+    if (!onGithub) {
+      baseElem.parentNode.removeChild(baseElem);
+    }
+  </script>
 </head>
 <body id="error404">
   <header>
