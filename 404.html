@@ -5,12 +5,12 @@ permalink: /404.html
 <html lang="en-GB" xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml" xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#">
 <head>
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
-  <!--meta charset="utf-8" /--><!-- Either this line or the above! http://www.w3.org/TR/html-polyglot/ -->
+  <!--meta charset="utf-8" /--><!--Either this line or the above! http://www.w3.org/TR/html-polyglot/ -->
   <title>Page not found! | Language Learning</title>
   <link rel="stylesheet" type="text/css" media="screen" href="http://cstrobbe.github.io/languagelearning/css/s_124085_triad.css" title="Three-colour scheme" />
   <link rel="alternate stylesheet" type="text/css" media="screen" href="http://cstrobbe.github.io/languagelearning/css/systemcolours.css" title="System colours" />
   <link rel="alternate stylesheet" type="text/css" media="screen" href="http://cstrobbe.github.io/languagelearning/css/default.css" title="No colours" />
-  <!-- custom 404 page, as explained at https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/ -->
+  <!--custom 404 page, as explained at https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/ -->
   <meta name="robots" content="noindex, nofollow" />
   <meta name="googlebot" content="noindex, nofollow" />
   <style type="text/css">header { transform: rotate(182deg); text-align: center;}
@@ -24,8 +24,6 @@ permalink: /404.html
     let baseElem = document.getElementById("base-url");
     let currentUrl = document.URL;
     let onGithub = currentUrl.includes("cstrobbe.github.io");
-    //console.log("Base URL = " + baseElem.getAttribute("href") + " Document URL = " + currentUrl);
-    //console.log("currentUrl includes cstrobbe.github.io: " + onGithub );
     if (!onGithub) {
       baseElem.parentNode.removeChild(baseElem);
     }
