@@ -1,5 +1,9 @@
 @import url("righthand_floating_navigation_layout.css");
 
+p.site-moved-warning {  border: 2px solid red; padding: 5px;
+  font-size: 1.5em;
+}
+
 body, *[lang=zh-CN] *[lang=en]  {
   font-family: 'Libre Baskerville', 'Trebuchet MS', Verdana, Helvetica, sans-serif;
   background-color: transparent; color: #282828;
