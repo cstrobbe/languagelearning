@@ -1,8 +1,8 @@
 # Language Learning
 
+**This repo has moved to [GitLab](https://gitlab.com/cstrobbe/languagelearning).**
+
 Collection of links and resources (both online and offline) related to learning foreign languages. 
-See the site at 
-[cstrobbe.GitHub.io/languagelearning/](http://cstrobbe.github.io/languagelearning/).
 
 ## How to Submit Isues or Comments
 
