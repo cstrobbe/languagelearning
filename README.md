@@ -1,6 +1,6 @@
 # Language Learning
 
-**This repo has moved to [GitLab](https://gitlab.com/cstrobbe/languagelearning).**
+**This repo has moved to [GitLab](https://gitlab.com/cstrobbe/languagelearning).** The copy on GitHub has been archived.
 
 Collection of links and resources (both online and offline) related to learning foreign languages. 
 
@@ -12,7 +12,7 @@ Submitting issues requires a GitHub account.
 
 ## Licence 
 
-Copyright: Christophe Strobbe, 2015 – 2020.
+Copyright: Christophe Strobbe, 2015 – 2022.
 
 Licence for most of the content: Creative Commons [CC BY-NC-SA 4.0](Licence_CC-BY-NC-SA-4.0.html),
 except where noted otherwise (e.g. images borrowed from elsewhere).
